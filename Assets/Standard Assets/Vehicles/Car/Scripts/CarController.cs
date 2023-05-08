@@ -152,6 +152,22 @@ namespace UnityStandardAssets.Vehicles.Car
 
             //Set the steer on the front wheels.
             //Assuming that wheels 0 and 1 are the front wheels.
+            if (CurrentSpeed < 10)
+            {
+                m_MaximumSteerAngle = 45;
+            }
+            if (CurrentSpeed > 10 && CurrentSpeed < 70)
+            {
+                m_MaximumSteerAngle = 25;
+            }
+            if (CurrentSpeed > 70 && CurrentSpeed < 110)
+            {
+                m_MaximumSteerAngle = 12;
+            }
+            if (CurrentSpeed > 110)
+            {
+                m_MaximumSteerAngle = 10;
+            }
             m_SteerAngle = steering*m_MaximumSteerAngle;
             m_WheelColliders[0].steerAngle = m_SteerAngle;
             m_WheelColliders[1].steerAngle = m_SteerAngle;
