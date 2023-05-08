@@ -13,6 +13,8 @@ public class UIScript : MonoBehaviour
     public TextMeshProUGUI LapTimeSecondsText;
     public TextMeshProUGUI RaceTimeMinutesText;
     public TextMeshProUGUI RaceTimeSecondsText;
+    public TextMeshProUGUI BestLapTimeMinutes;
+    public TextMeshProUGUI BestLapTimeSeconds;
     public int TotalLaps = 3;
 
     private float DisplaySpeed;
@@ -44,5 +46,22 @@ public class UIScript : MonoBehaviour
         // RaceTime
         RaceTimeMinutesText.text = Mathf.Round(SaveScript.RaceTimeMinutes).ToString("00:");
         RaceTimeSecondsText.text = Mathf.Round(SaveScript.RaceTimeSeconds).ToString("00");
+
+        // BestLapTime
+        if(SaveScript.LastLapM == SaveScript.BestLapTimeM)
+        {
+            if(SaveScript.LastLapS < SaveScript.BestLapTimeS)
+            {
+                SaveScript.BestLapTimeS = SaveScript.LastLapS;
+            }
+        }
+        if(SaveScript.LastLapM < SaveScript.BestLapTimeM)
+        {
+            SaveScript.BestLapTimeM = SaveScript.LastLapM;
+            SaveScript.BestLapTimeS = SaveScript.LastLapS;
+        }
+
+        BestLapTimeMinutes.text = Mathf.Round(SaveScript.BestLapTimeM).ToString("00:");
+        BestLapTimeSeconds.text = Mathf.Round(SaveScript.BestLapTimeS).ToString("00");
     }
 }

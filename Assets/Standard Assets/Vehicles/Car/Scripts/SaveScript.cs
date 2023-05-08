@@ -12,6 +12,10 @@ public class SaveScript : MonoBehaviour
     public static float LapTimeSeconds;
     public static float RaceTimeMinutes;
     public static float RaceTimeSeconds;
+    public static float BestLapTimeM;
+    public static float BestLapTimeS;
+    public static float LastLapM;
+    public static float LastLapS;
 
     private void Update()
     {
