@@ -24900,6 +24900,8 @@ MonoBehaviour:
   TotalLapsText: {fileID: 1146291291}
   LapTimeMinutesText: {fileID: 1093004090}
   LapTimeSecondsText: {fileID: 1875392933}
+  RaceTimeMinutesText: {fileID: 1239056777}
+  RaceTimeSecondsText: {fileID: 659083903}
   TotalLaps: 3
 --- !u!114 &1462737461
 MonoBehaviour:

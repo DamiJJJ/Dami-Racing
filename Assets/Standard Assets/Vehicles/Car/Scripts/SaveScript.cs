@@ -10,6 +10,8 @@ public class SaveScript : MonoBehaviour
     public static bool LapChange = false;
     public static float LapTimeMinutes;
     public static float LapTimeSeconds;
+    public static float RaceTimeMinutes;
+    public static float RaceTimeSeconds;
 
     private void Update()
     {
@@ -23,11 +25,17 @@ public class SaveScript : MonoBehaviour
         if(LapNumber >= 1)
         {
             LapTimeSeconds = LapTimeSeconds + 1 * Time.deltaTime;
+            RaceTimeSeconds = RaceTimeSeconds + 1 * Time.deltaTime;
         }
         if(LapTimeSeconds > 59)
         {
             LapTimeSeconds = 0f;
             LapTimeMinutes++;
+        }
+        if(RaceTimeSeconds > 59)
+        {
+            RaceTimeSeconds = 0f;
+            RaceTimeMinutes++;
         }
     }
 }
