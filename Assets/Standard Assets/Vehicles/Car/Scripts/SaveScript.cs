@@ -26,6 +26,7 @@ public class SaveScript : MonoBehaviour
     public static bool CheckPointPass1 = false;
     public static bool CheckPointPass2 = false;
     public static bool CheckPointPass3 = false;
+    public static bool NewRecord = false;
 
     private void Update()
     {
