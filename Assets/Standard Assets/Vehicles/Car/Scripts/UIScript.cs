@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -15,6 +16,8 @@ public class UIScript : MonoBehaviour
     public TextMeshProUGUI RaceTimeSecondsText;
     public TextMeshProUGUI BestLapTimeMinutes;
     public TextMeshProUGUI BestLapTimeSeconds;
+    public TextMeshProUGUI CheckPointTime;
+    public GameObject CheckPointDisplay;
     public int TotalLaps = 3;
 
     private float DisplaySpeed;
@@ -26,6 +29,7 @@ public class UIScript : MonoBehaviour
         GearText.text = "1";
         LapNumberText.text = "0";
         TotalLapsText.text = TotalLaps.ToString("/0");
+        CheckPointDisplay.SetActive(false);
     }
 
     private void Update()
@@ -63,5 +67,70 @@ public class UIScript : MonoBehaviour
 
         BestLapTimeMinutes.text = Mathf.Round(SaveScript.BestLapTimeM).ToString("00:");
         BestLapTimeSeconds.text = Mathf.Round(SaveScript.BestLapTimeS).ToString("00");
+
+        // CheckPoints
+        // CheckPoint 1
+        if(SaveScript.CheckPointPass1 == true)
+        {
+            SaveScript.CheckPointPass1 = false;
+            CheckPointDisplay.SetActive(true);
+
+            if(SaveScript.ThisCheckPoint1 > SaveScript.LastCheckPoint1)
+            {
+                CheckPointTime.color = Color.red;
+                CheckPointTime.text = (SaveScript.ThisCheckPoint1 - SaveScript.LastCheckPoint1).ToString("-0.000", System.Globalization.CultureInfo.InvariantCulture);
+                StartCoroutine(CheckPointOff());
+            }
+            if(SaveScript.ThisCheckPoint1 < SaveScript.LastCheckPoint1)
+            {
+                CheckPointTime.color = Color.green;
+                CheckPointTime.text = (SaveScript.LastCheckPoint1 - SaveScript.ThisCheckPoint1).ToString("+0.000", System.Globalization.CultureInfo.InvariantCulture);
+                StartCoroutine(CheckPointOff());
+            }
+        }
+        // CheckPoint 2
+        if(SaveScript.CheckPointPass2 == true)
+        {
+            SaveScript.CheckPointPass2 = false;
+            CheckPointDisplay.SetActive(true);
+
+            if(SaveScript.ThisCheckPoint2 > SaveScript.LastCheckPoint2)
+            {
+                CheckPointTime.color = Color.red;
+                CheckPointTime.text = (SaveScript.ThisCheckPoint2 - SaveScript.LastCheckPoint2).ToString("-0.000", System.Globalization.CultureInfo.InvariantCulture);
+                StartCoroutine(CheckPointOff());
+            }
+            if(SaveScript.ThisCheckPoint2 < SaveScript.LastCheckPoint2)
+            {
+                CheckPointTime.color = Color.green;
+                CheckPointTime.text = (SaveScript.LastCheckPoint2 - SaveScript.ThisCheckPoint2).ToString("+0.000", System.Globalization.CultureInfo.InvariantCulture);
+                StartCoroutine(CheckPointOff());
+            }
+        }
+        // CheckPoint 3
+        if(SaveScript.CheckPointPass3 == true)
+        {
+            SaveScript.CheckPointPass3 = false;
+            CheckPointDisplay.SetActive(true);
+
+            if(SaveScript.ThisCheckPoint3 > SaveScript.LastCheckPoint3)
+            {
+                CheckPointTime.color = Color.red;
+                CheckPointTime.text = (SaveScript.ThisCheckPoint3 - SaveScript.LastCheckPoint3).ToString("-0.000", System.Globalization.CultureInfo.InvariantCulture);
+                StartCoroutine(CheckPointOff());
+            }
+            if(SaveScript.ThisCheckPoint3 < SaveScript.LastCheckPoint3)
+            {
+                CheckPointTime.color = Color.green;
+                CheckPointTime.text = (SaveScript.LastCheckPoint3 - SaveScript.ThisCheckPoint3).ToString("+0.000", System.Globalization.CultureInfo.InvariantCulture);
+                StartCoroutine(CheckPointOff());
+            }
+        }
+    }
+
+    IEnumerator CheckPointOff()
+    {
+        yield return new WaitForSeconds(2);
+        CheckPointDisplay.SetActive(false);
     }
 }

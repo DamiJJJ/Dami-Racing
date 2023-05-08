@@ -15,6 +15,12 @@ public class Lap : MonoBehaviour
                 SaveScript.BestLapTimeM = SaveScript.LastLapM;
                 SaveScript.BestLapTimeS = SaveScript.LastLapS;
             }
+            SaveScript.CheckPointPass1 = false;
+            SaveScript.CheckPointPass2 = false;
+            SaveScript.CheckPointPass3 = false;
+            SaveScript.LastCheckPoint1 = SaveScript.ThisCheckPoint1;
+            SaveScript.LastCheckPoint2 = SaveScript.ThisCheckPoint2;
+            SaveScript.LastCheckPoint3 = SaveScript.ThisCheckPoint3;
         }
     }
 }

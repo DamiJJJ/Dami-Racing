@@ -16,6 +16,16 @@ public class SaveScript : MonoBehaviour
     public static float BestLapTimeS;
     public static float LastLapM;
     public static float LastLapS;
+    public static float GameTime;
+    public static float LastCheckPoint1;
+    public static float ThisCheckPoint1;
+    public static float LastCheckPoint2;
+    public static float ThisCheckPoint2;
+    public static float LastCheckPoint3;
+    public static float ThisCheckPoint3;
+    public static bool CheckPointPass1 = false;
+    public static bool CheckPointPass2 = false;
+    public static bool CheckPointPass3 = false;
 
     private void Update()
     {
@@ -24,12 +34,14 @@ public class SaveScript : MonoBehaviour
             LapChange = false;
             LapTimeMinutes = 0f;
             LapTimeSeconds = 0f;
+            GameTime = 0f;
         }
 
         if(LapNumber >= 1)
         {
             LapTimeSeconds = LapTimeSeconds + 1 * Time.deltaTime;
             RaceTimeSeconds = RaceTimeSeconds + 1 * Time.deltaTime;
+            GameTime = GameTime + 1 * Time.deltaTime;
         }
         if(LapTimeSeconds > 59)
         {
