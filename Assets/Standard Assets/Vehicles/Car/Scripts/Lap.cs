@@ -7,6 +7,7 @@ public class Lap : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             SaveScript.LapNumber++;
+            SaveScript.LapChange = true;
         }
     }
 }

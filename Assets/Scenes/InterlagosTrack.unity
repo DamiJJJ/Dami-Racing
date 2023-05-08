@@ -24898,6 +24898,8 @@ MonoBehaviour:
   GearText: {fileID: 258425048}
   LapNumberText: {fileID: 1385741937}
   TotalLapsText: {fileID: 1146291291}
+  LapTimeMinutesText: {fileID: 1093004090}
+  LapTimeSecondsText: {fileID: 1875392933}
   TotalLaps: 3
 --- !u!114 &1462737461
 MonoBehaviour:

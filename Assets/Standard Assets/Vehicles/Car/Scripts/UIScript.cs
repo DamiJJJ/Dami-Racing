@@ -9,6 +9,8 @@ public class UIScript : MonoBehaviour
     public TextMeshProUGUI GearText;
     public TextMeshProUGUI LapNumberText;
     public TextMeshProUGUI TotalLapsText;
+    public TextMeshProUGUI LapTimeMinutesText;
+    public TextMeshProUGUI LapTimeSecondsText;
     public int TotalLaps = 3;
 
     private float DisplaySpeed;
@@ -24,10 +26,17 @@ public class UIScript : MonoBehaviour
 
     private void Update()
     {
+        // Speedometer
         DisplaySpeed = SaveScript.Speed / SaveScript.TopSpeed;
         SpeedRing.fillAmount = DisplaySpeed;
         SpeedText.text = Mathf.Round(SaveScript.Speed).ToString();
         GearText.text = (SaveScript.Gear + 1).ToString();
+
+        // LapNumber
         LapNumberText.text = SaveScript.LapNumber.ToString();
+
+        // LapTime
+        LapTimeMinutesText.text = Mathf.Round(SaveScript.LapTimeMinutes).ToString("00:");
+        LapTimeSecondsText.text = Mathf.Round(SaveScript.LapTimeSeconds).ToString("00");
     }
 }
