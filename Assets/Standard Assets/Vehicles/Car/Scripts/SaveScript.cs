@@ -27,6 +27,8 @@ public class SaveScript : MonoBehaviour
     public static bool CheckPointPass2 = false;
     public static bool CheckPointPass3 = false;
     public static bool NewRecord = false;
+    public static bool OnTheRoad = true;
+    public static bool OnTheTerrain = false;
 
     private void Update()
     {

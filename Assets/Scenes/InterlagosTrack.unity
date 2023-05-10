@@ -5638,6 +5638,7 @@ GameObject:
   - component: {fileID: 383664815}
   - component: {fileID: 377330343}
   - component: {fileID: 380466875}
+  - component: {fileID: 383664816}
   m_Layer: 0
   m_Name: WheelHubRearRight
   m_TagString: Untagged
@@ -5657,6 +5658,7 @@ GameObject:
   - component: {fileID: 383664809}
   - component: {fileID: 377330337}
   - component: {fileID: 380466853}
+  - component: {fileID: 383664810}
   m_Layer: 0
   m_Name: WheelHubRearLeft
   m_TagString: Untagged
@@ -5676,6 +5678,7 @@ GameObject:
   - component: {fileID: 383664813}
   - component: {fileID: 377330363}
   - component: {fileID: 380466879}
+  - component: {fileID: 383664814}
   m_Layer: 0
   m_Name: WheelHubFrontRight
   m_TagString: Untagged
@@ -5695,6 +5698,7 @@ GameObject:
   - component: {fileID: 383664811}
   - component: {fileID: 377330341}
   - component: {fileID: 380466873}
+  - component: {fileID: 383664812}
   m_Layer: 0
   m_Name: WheelHubFrontLeft
   m_TagString: Untagged
@@ -7241,6 +7245,22 @@ WheelCollider:
     m_AsymptoteValue: 0.75
     m_Stiffness: 1.1
   m_Enabled: 1
+--- !u!114 &383664810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369165099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725f6cfc2a858bf42a693debaef420fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoadForwardStiffness: 3
+  TerraintForwardStiffness: 0.6
+  RoadSidewaysStiffness: 1.1
+  TerrainSidewaysStiffness: 0.2
 --- !u!146 &383664811
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -7271,6 +7291,22 @@ WheelCollider:
     m_AsymptoteValue: 0.75
     m_Stiffness: 1.1
   m_Enabled: 1
+--- !u!114 &383664812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369165103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725f6cfc2a858bf42a693debaef420fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoadForwardStiffness: 3
+  TerraintForwardStiffness: 0.6
+  RoadSidewaysStiffness: 1.1
+  TerrainSidewaysStiffness: 0.2
 --- !u!146 &383664813
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -7301,6 +7337,22 @@ WheelCollider:
     m_AsymptoteValue: 0.75
     m_Stiffness: 1.1
   m_Enabled: 1
+--- !u!114 &383664814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369165101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725f6cfc2a858bf42a693debaef420fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoadForwardStiffness: 3
+  TerraintForwardStiffness: 0.6
+  RoadSidewaysStiffness: 1.1
+  TerrainSidewaysStiffness: 0.2
 --- !u!146 &383664815
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -7331,6 +7383,22 @@ WheelCollider:
     m_AsymptoteValue: 0.75
     m_Stiffness: 1.1
   m_Enabled: 1
+--- !u!114 &383664816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369165097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725f6cfc2a858bf42a693debaef420fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoadForwardStiffness: 3
+  TerraintForwardStiffness: 0.6
+  RoadSidewaysStiffness: 1.1
+  TerrainSidewaysStiffness: 0.2
 --- !u!1001 &385461317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20375,6 +20443,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: F1 Car
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2bbc007efbb1a4d42a0628f20cb03efe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1131469243485536476, guid: 2bbc007efbb1a4d42a0628f20cb03efe,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -24642,7 +24715,7 @@ MeshCollider:
   m_GameObject: {fileID: 1397339879}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -26891,7 +26964,7 @@ GameObject:
   - component: {fileID: 1589745770}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32195,6 +32268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Interlagos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378922297957006227, guid: d6747f536df271941924f00f74f9ee01,
+        type: 3}
+      propertyPath: m_TagString
+      value: Road
       objectReference: {fileID: 0}
     - target: {fileID: 2367705109410454717, guid: d6747f536df271941924f00f74f9ee01,
         type: 3}

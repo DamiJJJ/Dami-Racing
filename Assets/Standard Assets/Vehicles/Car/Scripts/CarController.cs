@@ -299,6 +299,19 @@ namespace UnityStandardAssets.Vehicles.Car
                 WheelHit wheelHit;
                 m_WheelColliders[i].GetGroundHit(out wheelHit);
 
+                if(wheelHit.collider.CompareTag("Road"))
+                {
+                    Debug.Log("On the road");
+                    SaveScript.OnTheRoad = true;
+                    SaveScript.OnTheTerrain = false;
+                }
+                if(wheelHit.collider.CompareTag("Terrain"))
+                {
+                    Debug.Log("On the terrain");
+                    SaveScript.OnTheRoad = false;
+                    SaveScript.OnTheTerrain = true;
+                }
+
                 // is the tire slipping above the given threshhold
                 if (Mathf.Abs(wheelHit.forwardSlip) >= m_SlipLimit || Mathf.Abs(wheelHit.sidewaysSlip) >= m_SlipLimit)
                 {
