@@ -8,6 +8,8 @@ public class WheelslipValue : MonoBehaviour
     public float TerraintForwardStiffness = 0.6f;
     public float RoadSidewaysStiffness = 1.1f;
     public float TerrainSidewaysStiffness = 0.2f;
+    
+    private bool Changed = false;
 
     private void Start()
     {
@@ -18,24 +20,32 @@ public class WheelslipValue : MonoBehaviour
     {
         if(SaveScript.OnTheRoad)
         {
-            WheelFrictionCurve fFriction = WheelC.forwardFriction;
-            fFriction.stiffness = RoadForwardStiffness;
-            WheelC.forwardFriction = fFriction;
+            if(!Changed)
+            {
+                Changed = true;
+                WheelFrictionCurve fFriction = WheelC.forwardFriction;
+                fFriction.stiffness = RoadForwardStiffness;
+                WheelC.forwardFriction = fFriction;
 
-            WheelFrictionCurve sFriction = WheelC.sidewaysFriction;
-            sFriction.stiffness = RoadSidewaysStiffness;
-            WheelC.sidewaysFriction = sFriction;
+                WheelFrictionCurve sFriction = WheelC.sidewaysFriction;
+                sFriction.stiffness = RoadSidewaysStiffness;
+                WheelC.sidewaysFriction = sFriction;
+            } 
         }
 
         if(SaveScript.OnTheTerrain)
         {
-            WheelFrictionCurve fFriction = WheelC.forwardFriction;
-            fFriction.stiffness = TerraintForwardStiffness;
-            WheelC.forwardFriction = fFriction;
+            if(Changed)
+            {
+                Changed = false;
+                WheelFrictionCurve fFriction = WheelC.forwardFriction;
+                fFriction.stiffness = TerraintForwardStiffness;
+                WheelC.forwardFriction = fFriction;
 
-            WheelFrictionCurve sFriction = WheelC.sidewaysFriction;
-            sFriction.stiffness = TerrainSidewaysStiffness;
-            WheelC.sidewaysFriction = sFriction;
+                WheelFrictionCurve sFriction = WheelC.sidewaysFriction;
+                sFriction.stiffness = TerrainSidewaysStiffness;
+                WheelC.sidewaysFriction = sFriction;
+            }
         }
     }
 }

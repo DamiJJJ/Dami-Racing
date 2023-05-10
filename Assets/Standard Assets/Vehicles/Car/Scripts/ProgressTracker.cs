@@ -14,21 +14,9 @@ public class ProgressTracker : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Barrier"))
         {
-            if(!IsPlaying)
+            if(!ThudSound.isPlaying)
             {
-                IsPlaying = true;
                 ThudSound.Play();
-            }
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if(other.gameObject.CompareTag("Barrier"))
-        {
-            if(IsPlaying)
-            {
-                IsPlaying = false;
             }
         }
     }

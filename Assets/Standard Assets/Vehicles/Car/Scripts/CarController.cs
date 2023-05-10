@@ -299,19 +299,27 @@ namespace UnityStandardAssets.Vehicles.Car
                 WheelHit wheelHit;
                 m_WheelColliders[i].GetGroundHit(out wheelHit);
 
-                if(wheelHit.collider.CompareTag("Road"))
+                if (wheelHit.collider)
                 {
-                    Debug.Log("On the road");
-                    SaveScript.OnTheRoad = true;
-                    SaveScript.OnTheTerrain = false;
-                }
-                if(wheelHit.collider.CompareTag("Terrain"))
-                {
-                    Debug.Log("On the terrain");
-                    SaveScript.OnTheRoad = false;
-                    SaveScript.OnTheTerrain = true;
-                }
+                     if(SaveScript.OnTheTerrain)
+                    {
+                        if(wheelHit.collider.CompareTag("Road"))
+                        {
+                            SaveScript.OnTheRoad = true;
+                            SaveScript.OnTheTerrain = false;
+                        }
+                    }
 
+                    if(SaveScript.OnTheRoad)
+                    {
+                        if(wheelHit.collider.CompareTag("Terrain"))
+                        {
+                            SaveScript.OnTheRoad = false;
+                            SaveScript.OnTheTerrain = true;
+                        }
+                    }
+                }
+                
                 // is the tire slipping above the given threshhold
                 if (Mathf.Abs(wheelHit.forwardSlip) >= m_SlipLimit || Mathf.Abs(wheelHit.sidewaysSlip) >= m_SlipLimit)
                 {
@@ -355,24 +363,32 @@ namespace UnityStandardAssets.Vehicles.Car
                 case CarDriveType.RearWheelDrive:
                     m_WheelColliders[2].GetGroundHit(out wheelHit);
                     AdjustTorque(wheelHit.forwardSlip);
-                    if(wheelHit.collider.CompareTag("RumbleStrip") && CurrentSpeed > 10)
+
+                    if (wheelHit.collider)
                     {
-                        SaveScript.Rumble1 = true;
-                    }
-                    else
-                    {
-                        SaveScript.Rumble1 = false;
+                        if(wheelHit.collider.CompareTag("RumbleStrip") && CurrentSpeed > 10)
+                        {
+                            SaveScript.Rumble1 = true;
+                        }
+                        else
+                        {
+                            SaveScript.Rumble1 = false;
+                        }
                     }
 
                     m_WheelColliders[3].GetGroundHit(out wheelHit);
                     AdjustTorque(wheelHit.forwardSlip);
-                    if(wheelHit.collider.CompareTag("RumbleStrip") && CurrentSpeed > 10)
+
+                    if (wheelHit.collider)
                     {
-                        SaveScript.Rumble2 = true;
-                    }
-                    else
-                    {
-                        SaveScript.Rumble2 = false;
+                        if(wheelHit.collider.CompareTag("RumbleStrip") && CurrentSpeed > 10)
+                        {
+                            SaveScript.Rumble2 = true;
+                        }
+                        else
+                        {
+                            SaveScript.Rumble2 = false;
+                        }
                     }
                     break;
 
