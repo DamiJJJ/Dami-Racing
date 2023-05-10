@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ProgressTracker : MonoBehaviour
 {
+    public int CurrentWP = 0;
     private AudioSource ThudSound;
     private bool IsPlaying = false;
 
