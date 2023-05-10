@@ -355,9 +355,25 @@ namespace UnityStandardAssets.Vehicles.Car
                 case CarDriveType.RearWheelDrive:
                     m_WheelColliders[2].GetGroundHit(out wheelHit);
                     AdjustTorque(wheelHit.forwardSlip);
+                    if(wheelHit.collider.CompareTag("RumbleStrip") && CurrentSpeed > 10)
+                    {
+                        SaveScript.Rumble1 = true;
+                    }
+                    else
+                    {
+                        SaveScript.Rumble1 = false;
+                    }
 
                     m_WheelColliders[3].GetGroundHit(out wheelHit);
                     AdjustTorque(wheelHit.forwardSlip);
+                    if(wheelHit.collider.CompareTag("RumbleStrip") && CurrentSpeed > 10)
+                    {
+                        SaveScript.Rumble2 = true;
+                    }
+                    else
+                    {
+                        SaveScript.Rumble2 = false;
+                    }
                     break;
 
                 case CarDriveType.FrontWheelDrive:
