@@ -1,10 +1,12 @@
+using System.Collections;
 using UnityEngine;
 
 public class ProgressTracker : MonoBehaviour
 {
     public int CurrentWP = 0;
+    public int ThisWPNumber;
+    public int LastWPNumber;
     private AudioSource ThudSound;
-    private bool IsPlaying = false;
 
     private void Start()
     {
@@ -20,5 +22,27 @@ public class ProgressTracker : MonoBehaviour
                 ThudSound.Play();
             }
         }
+    }
+
+    private void Update()
+    {
+        if(CurrentWP > LastWPNumber)
+        {
+            StartCoroutine(CheckDirection());
+        }
+        if(LastWPNumber > ThisWPNumber)
+        {
+            SaveScript.WrongWay = false;
+        }
+        if(LastWPNumber < ThisWPNumber)
+        {
+            SaveScript.WrongWay = true;
+        }
+    }
+
+    IEnumerator CheckDirection()
+    {
+        yield return new WaitForSeconds(0.5f);
+        ThisWPNumber = LastWPNumber;        
     }
 }

@@ -15,12 +15,11 @@ public class ProgressWaypoints : MonoBehaviour
             if(CarTracking < WPNumber)
             {
                 other.GetComponent<ProgressTracker>().CurrentWP = WPNumber;
-                Debug.Log("CurrentWP =" + other.GetComponent<ProgressTracker>().CurrentWP);
+                // Debug.Log("CurrentWP =" + other.GetComponent<ProgressTracker>().CurrentWP);
             }
             if(CarTracking > WPNumber)
             {
-                Debug.Log("Wrong way");
-                SaveScript.WrongWay = true;
+                other.GetComponent<ProgressTracker>().LastWPNumber = WPNumber;
             }
             if(PenaltyOption)
             {
