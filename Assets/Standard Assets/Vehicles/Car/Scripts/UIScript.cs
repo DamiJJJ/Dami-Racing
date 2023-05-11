@@ -17,6 +17,7 @@ public class UIScript : MonoBehaviour
     public TextMeshProUGUI BestLapTimeMinutes;
     public TextMeshProUGUI BestLapTimeSeconds;
     public TextMeshProUGUI CheckPointTime;
+    public TextMeshProUGUI WrongWayT;
     public GameObject CheckPointDisplay;
     public GameObject NewLapRecord;
     public GameObject WrongWayText;
@@ -160,6 +161,16 @@ public class UIScript : MonoBehaviour
         else
         {
             WrongWayText.SetActive(false);
+        }
+
+        // WrongWay Reset Text
+        if(!SaveScript.WWTextReset)
+        {
+            WrongWayT.text = "wrong way!";
+        }
+        if(SaveScript.WWTextReset)
+        {
+            WrongWayT.text = " ";
         }
     }
 

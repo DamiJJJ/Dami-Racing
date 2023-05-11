@@ -32,6 +32,8 @@ public class SaveScript : MonoBehaviour
     public static bool Rumble1 = false;
     public static bool Rumble2 = false;
     public static bool WrongWay = false;
+    public static bool HalfWayActivated = true;
+    public static bool WWTextReset = false;
 
     private void Update()
     {
