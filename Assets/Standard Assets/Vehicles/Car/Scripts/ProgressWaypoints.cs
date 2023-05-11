@@ -4,6 +4,8 @@ public class ProgressWaypoints : MonoBehaviour
 {
     public int WPNumber;
     public int CarTracking = 0;
+    public bool PenaltyOption = false;
+    public int PenaltyWayPoint;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -19,6 +21,13 @@ public class ProgressWaypoints : MonoBehaviour
             {
                 Debug.Log("Wrong way");
                 SaveScript.WrongWay = true;
+            }
+            if(PenaltyOption)
+            {
+                if(CarTracking < PenaltyWayPoint)
+                {
+                    Debug.Log("Penalty");
+                }
             }
         }
     }

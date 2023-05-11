@@ -176,6 +176,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 102
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &778059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -236,6 +238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 4
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &783429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -308,6 +312,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 83
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &5512730
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -437,6 +443,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 65
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &7605529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -503,6 +511,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 44
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &14601053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -894,6 +904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 36
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &44996603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1023,6 +1035,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 49
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &57413317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1752,6 +1766,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 85
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &97513994
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2088,6 +2104,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 66
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &105750494
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2524,6 +2542,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 15
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &128056454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2590,6 +2610,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 90
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &130730416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3193,6 +3215,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 20
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &160781211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3486,6 +3510,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 91
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &172364648
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3552,6 +3578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 75
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &175996886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3750,6 +3778,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 77
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &177248966
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3928,6 +3958,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 59
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &192385067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4340,6 +4372,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 55
   CarTracking: 0
+  PenaltyOption: 1
+  PenaltyWayPoint: 50
 --- !u!65 &205467303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4400,6 +4434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 47
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &212398504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5167,6 +5203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 60
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &262096185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5227,6 +5265,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 30
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &263678652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5650,6 +5690,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 9
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &275183320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5716,6 +5758,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 96
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &281026425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6076,6 +6120,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 6
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &326953392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6664,6 +6710,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 29
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &344284832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7052,6 +7100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 69
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &361919932
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7748,6 +7798,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 40
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &370127892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14065,6 +14117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 100
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &422433694
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14606,6 +14660,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 53
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &444365321
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14950,6 +15006,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 104
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &468008126
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15604,6 +15662,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 10
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &508538853
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15808,6 +15868,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 61
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &512706748
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16332,6 +16394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 86
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &551381809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17190,6 +17254,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 42
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &604183272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17362,6 +17428,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 51
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &613398516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18608,6 +18676,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 14
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &677131674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18674,6 +18744,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 13
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &682103275
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18890,6 +18962,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 58
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &705895007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19040,6 +19114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 101
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &723460778
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19175,6 +19251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 3
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &734501471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19235,6 +19313,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 84
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &736936885
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19753,6 +19833,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 103
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &779852456
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20438,6 +20520,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 81
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &826150281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21530,6 +21614,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 94
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &894900941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21671,6 +21757,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 98
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &903790355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21970,6 +22058,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 32
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &917250811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22429,6 +22519,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 35
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &962083570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22495,6 +22587,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 46
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &966449369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23285,6 +23379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 56
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1006505766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23345,6 +23441,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 72
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1007434869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24010,6 +24108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 21
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1043774785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24139,6 +24239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 89
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1046702747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24268,6 +24370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 62
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1051983559
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24328,6 +24432,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 54
   CarTracking: 0
+  PenaltyOption: 1
+  PenaltyWayPoint: 50
 --- !u!65 &1053561992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24556,6 +24662,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 33
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1078688865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25161,6 +25269,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 28
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1130956058
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25227,6 +25337,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 19
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1134669614
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26019,6 +26131,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 68
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1218454744
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26085,6 +26199,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 16
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1228393084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26283,6 +26399,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 64
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1236997956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26911,6 +27029,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 78
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1258548251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26971,6 +27091,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 82
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1260097835
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27031,6 +27153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 43
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1261451072
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27328,6 +27452,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 88
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1273805875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27706,6 +27832,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 57
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1312638250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27772,6 +27900,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 31
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1314646403
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28183,6 +28313,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 73
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1342369331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28525,6 +28657,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 52
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1362164096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28640,6 +28774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 106
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1370488383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29030,6 +29166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 70
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1386640054
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29240,6 +29378,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 27
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1391457046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29300,6 +29440,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 24
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1396479264
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29552,6 +29694,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 1
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1417847790
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29630,6 +29774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 63
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1424621768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29702,6 +29848,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 48
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1430385862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29831,6 +29979,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 22
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1438576269
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30475,6 +30625,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 11
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1467406361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30673,6 +30825,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 25
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1484157628
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31352,6 +31506,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 45
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1516489532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31560,6 +31716,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 79
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1543939172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31687,6 +31845,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 39
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1556930613
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31834,6 +31994,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 71
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1567510474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32323,6 +32485,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 74
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1590309291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32464,6 +32628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 2
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1602367243
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32524,6 +32690,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 12
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1606115977
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32728,6 +32896,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 41
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1618818914
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32788,6 +32958,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 38
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1621364095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33085,6 +33257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 18
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1640616814
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33220,6 +33394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 76
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1664219771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33964,6 +34140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 26
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1715054936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34091,6 +34269,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 97
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1736878361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34151,6 +34331,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 67
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1738492532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34211,6 +34393,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 93
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1741413234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34983,6 +35167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 37
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1768561147
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35340,6 +35526,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 17
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1788697892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35682,6 +35870,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 99
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1802624172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36331,6 +36521,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 109
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1864929504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36403,6 +36595,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 108
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1871824880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36686,6 +36880,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 5
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1890546850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37028,6 +37224,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 87
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1904956182
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37307,6 +37505,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 7
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1915435417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37671,6 +37871,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 95
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1974537558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38011,6 +38213,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 8
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1988151957
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38146,6 +38350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 107
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1993895535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38293,6 +38499,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 92
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2002801490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38876,6 +39084,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 34
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2035748696
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39595,6 +39805,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 105
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2057970351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39655,6 +39867,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 50
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2059007964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40015,6 +40229,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 80
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2088937795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40761,6 +40977,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 23
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2129040133
 BoxCollider:
   m_ObjectHideFlags: 0
