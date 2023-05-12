@@ -37,7 +37,6 @@ public class StartingLightsScript : MonoBehaviour
         Sound2.Play();
         GLightOff.SetActive(false);
         GLightOn.SetActive(true);
-        yield return new WaitForSeconds(0.5f);
         SaveScript.RaceStart = true;
         StartText.SetActive(true);
         yield return new WaitForSeconds(2);
