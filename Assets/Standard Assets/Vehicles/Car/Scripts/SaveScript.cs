@@ -34,6 +34,7 @@ public class SaveScript : MonoBehaviour
     public static bool WrongWay = false;
     public static bool HalfWayActivated = true;
     public static bool WWTextReset = false;
+    public static bool RaceStart = false;
 
     private void Update()
     {
