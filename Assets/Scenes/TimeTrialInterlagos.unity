@@ -19195,7 +19195,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653452624}
-  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
+  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
   m_LocalPosition: {x: 147.98373, y: 1.5708996, z: -145.49084}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -23442,6 +23442,25 @@ MonoBehaviour:
   Sound1: {fileID: 1468927216}
   Sound2: {fileID: 663596420}
   StartText: {fileID: 1545888000}
+--- !u!114 &903987030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903987021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e013122791d9fa49b4151f359454d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeTrial: 1
+  GoldMinutes: 0
+  GoldSeconds: 52
+  SilverMinutes: 0
+  SilverSeconds: 58
+  BronzeMinutes: 1
+  BronzeSeconds: 1
 --- !u!1 &914845821
 GameObject:
   m_ObjectHideFlags: 0
@@ -32728,6 +32747,12 @@ MonoBehaviour:
   BestLapTimeSeconds: {fileID: 914845823}
   CheckPointTime: {fileID: 2099041045}
   WrongWayT: {fileID: 878094493}
+  TimeTrialMinutesG: {fileID: 2128255676}
+  TimeTrialMinutesS: {fileID: 1696557930}
+  TimeTrialMinutesB: {fileID: 445750124}
+  TimeTrialSecondsG: {fileID: 439459578}
+  TimeTrialSecondsS: {fileID: 1061910686}
+  TimeTrialSecondsB: {fileID: 261792393}
   CheckPointDisplay: {fileID: 2099041042}
   NewLapRecord: {fileID: 76122498}
   WrongWayText: {fileID: 878094492}
@@ -36443,7 +36468,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686412903}
-  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
+  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
   m_LocalPosition: {x: 147.98373, y: 1.5708996, z: -145.49084}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

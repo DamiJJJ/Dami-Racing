@@ -35,6 +35,12 @@ public class SaveScript : MonoBehaviour
     public static bool HalfWayActivated = true;
     public static bool WWTextReset = false;
     public static bool RaceStart = false;
+    public static float TimeTrialMinG;
+    public static float TimeTrialMinS;
+    public static float TimeTrialMinB;
+    public static float TimeTrialSecondsG;
+    public static float TimeTrialSecondsS;
+    public static float TimeTrialSecondsB;
 
     private void Update()
     {
