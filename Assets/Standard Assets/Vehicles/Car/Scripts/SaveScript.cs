@@ -43,6 +43,7 @@ public class SaveScript : MonoBehaviour
     public static float TimeTrialSecondsB;
     public static int MaxLaps;
     public static bool RaceOver = false;
+    public static int PlayerPosition;
 
     private void Update()
     {
