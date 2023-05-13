@@ -18,12 +18,14 @@ public class UIScript : MonoBehaviour
     public TextMeshProUGUI BestLapTimeSeconds;
     public TextMeshProUGUI CheckPointTime;
     public TextMeshProUGUI WrongWayT;
+    // Time Trial objects
     public TextMeshProUGUI TimeTrialMinutesG;
     public TextMeshProUGUI TimeTrialMinutesS;
     public TextMeshProUGUI TimeTrialMinutesB;
     public TextMeshProUGUI TimeTrialSecondsG;
     public TextMeshProUGUI TimeTrialSecondsS;
     public TextMeshProUGUI TimeTrialSecondsB;
+    public GameObject TimeTrialPanel;
     public GameObject CheckPointDisplay;
     public GameObject NewLapRecord;
     public GameObject WrongWayText;
@@ -41,7 +43,9 @@ public class UIScript : MonoBehaviour
         CheckPointDisplay.SetActive(false);
         NewLapRecord.SetActive(false);
         WrongWayText.SetActive(false);
+        SaveScript.MaxLaps = TotalLaps;
 
+        TimeTrialPanel.SetActive(true);
         // Setting the timeTrial times
         TimeTrialMinutesG.text = SaveScript.TimeTrialMinG.ToString("00:");
         TimeTrialSecondsG.text = SaveScript.TimeTrialSecondsG.ToString("00");

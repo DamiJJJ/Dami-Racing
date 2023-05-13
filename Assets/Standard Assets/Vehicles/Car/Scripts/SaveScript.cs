@@ -41,32 +41,37 @@ public class SaveScript : MonoBehaviour
     public static float TimeTrialSecondsG;
     public static float TimeTrialSecondsS;
     public static float TimeTrialSecondsB;
+    public static int MaxLaps;
+    public static bool RaceOver = false;
 
     private void Update()
     {
-        if(LapChange == true)
+        if(!RaceOver)
         {
-            LapChange = false;
-            LapTimeMinutes = 0f;
-            LapTimeSeconds = 0f;
-            GameTime = 0f;
-        }
+            if(LapChange)
+            {
+                LapChange = false;
+                LapTimeMinutes = 0f;
+                LapTimeSeconds = 0f;
+                GameTime = 0f;
+            }
 
-        if(LapNumber >= 1)
-        {
-            LapTimeSeconds = LapTimeSeconds + 1 * Time.deltaTime;
-            RaceTimeSeconds = RaceTimeSeconds + 1 * Time.deltaTime;
-            GameTime = GameTime + 1 * Time.deltaTime;
-        }
-        if(LapTimeSeconds > 59)
-        {
-            LapTimeSeconds = 0f;
-            LapTimeMinutes++;
-        }
-        if(RaceTimeSeconds > 59)
-        {
-            RaceTimeSeconds = 0f;
-            RaceTimeMinutes++;
+            if(LapNumber >= 1)
+            {
+                LapTimeSeconds = LapTimeSeconds + 1 * Time.deltaTime;
+                RaceTimeSeconds = RaceTimeSeconds + 1 * Time.deltaTime;
+                GameTime = GameTime + 1 * Time.deltaTime;
+            }
+            if(LapTimeSeconds > 59)
+            {
+                LapTimeSeconds = 0f;
+                LapTimeMinutes++;
+            }
+            if(RaceTimeSeconds > 59)
+            {
+                RaceTimeSeconds = 0f;
+                RaceTimeMinutes++;
+            }
         }
     }
 }
