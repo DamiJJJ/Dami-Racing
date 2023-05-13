@@ -23638,11 +23638,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeTrial: 1
   GoldMinutes: 0
-  GoldSeconds: 53
+  GoldSeconds: 55
   SilverMinutes: 0
   SilverSeconds: 58
   BronzeMinutes: 1
-  BronzeSeconds: 3
+  BronzeSeconds: 6
 --- !u!1 &914845821
 GameObject:
   m_ObjectHideFlags: 0
