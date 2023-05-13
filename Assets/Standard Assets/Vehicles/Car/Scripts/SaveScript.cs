@@ -44,6 +44,10 @@ public class SaveScript : MonoBehaviour
     public static int MaxLaps;
     public static bool RaceOver = false;
     public static int PlayerPosition;
+    public static bool Gold = false;
+    public static bool Silver = false;
+    public static bool Bronze = false;
+    public static bool Fail = false;
 
     private void Update()
     {
