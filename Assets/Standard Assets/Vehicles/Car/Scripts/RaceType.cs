@@ -29,15 +29,29 @@ public class RaceType : MonoBehaviour
         {
             if(TimeTrial)
             {
+                if((SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) > 59)
+                {
+                    SaveScript.PenaltySeconds = (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) - 59;
+                    SaveScript.RaceTimeMinutes++;
+                    SaveScript.RaceTimeSeconds = 0 + SaveScript.PenaltySeconds;
+                }
                 // Gold
-                if(SaveScript.RaceTimeMinutes == GoldMinutes && SaveScript.RaceTimeSeconds <= GoldSeconds)
+                if(SaveScript.RaceTimeMinutes < GoldMinutes)
+                {
+                    SaveScript.Gold = true;
+                }
+                if(SaveScript.RaceTimeMinutes == GoldMinutes && (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) <= GoldSeconds)
                 {
                     SaveScript.Gold = true;
                 }
                 // Silver
                 if(!SaveScript.Gold)
                 {
-                    if(SaveScript.RaceTimeMinutes == SilverMinutes && SaveScript.RaceTimeSeconds <= SilverSeconds)
+                    if(SaveScript.RaceTimeMinutes < SilverMinutes)
+                    {
+                        SaveScript.Silver = true;
+                    }
+                    if(SaveScript.RaceTimeMinutes == SilverMinutes && (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) <= SilverSeconds)
                     {
                         SaveScript.Silver = true;
                     }
@@ -45,12 +59,15 @@ public class RaceType : MonoBehaviour
                 // Bronze
                 if(!SaveScript.Gold && !SaveScript.Silver)
                 {
-                    if(SaveScript.RaceTimeMinutes == BronzeMinutes && SaveScript.RaceTimeSeconds <= BronzeSeconds)
+                    if(SaveScript.RaceTimeMinutes < BronzeMinutes)
+                    {
+                        SaveScript.Bronze = true;
+                    }
+                    if(SaveScript.RaceTimeMinutes == BronzeMinutes && (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) <= BronzeSeconds)
                     {
                         SaveScript.Bronze = true;
                     }
                 }
-
                 // Fail
                 else if(!SaveScript.Gold && !SaveScript.Silver && !SaveScript.Bronze)
                 {
