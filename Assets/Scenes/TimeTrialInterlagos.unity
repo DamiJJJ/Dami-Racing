@@ -9173,6 +9173,7 @@ MonoBehaviour:
   m_RevRangeBoundary: 0.6
   m_SlipLimit: 0.8
   m_BrakeTorque: 40000
+  MySteerHelper: 0.66
 --- !u!114 &380466867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9436,7 +9437,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1.1
+    m_Stiffness: 0.9
   m_Enabled: 1
 --- !u!114 &383664810
 MonoBehaviour:
@@ -9452,7 +9453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RoadForwardStiffness: 3
   TerraintForwardStiffness: 0.6
-  RoadSidewaysStiffness: 1.1
+  RoadSidewaysStiffness: 0.9
   TerrainSidewaysStiffness: 0.2
 --- !u!146 &383664811
 WheelCollider:
@@ -9476,13 +9477,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 3
+    m_Stiffness: 2.6
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1.1
+    m_Stiffness: 0.8
   m_Enabled: 1
 --- !u!114 &383664812
 MonoBehaviour:
@@ -9496,9 +9497,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725f6cfc2a858bf42a693debaef420fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoadForwardStiffness: 3
+  RoadForwardStiffness: 2.6
   TerraintForwardStiffness: 0.6
-  RoadSidewaysStiffness: 1.1
+  RoadSidewaysStiffness: 0.8
   TerrainSidewaysStiffness: 0.2
 --- !u!146 &383664813
 WheelCollider:
@@ -9522,13 +9523,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 3
+    m_Stiffness: 2.6
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1.1
+    m_Stiffness: 0.8
   m_Enabled: 1
 --- !u!114 &383664814
 MonoBehaviour:
@@ -9542,9 +9543,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725f6cfc2a858bf42a693debaef420fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoadForwardStiffness: 3
+  RoadForwardStiffness: 2.6
   TerraintForwardStiffness: 0.6
-  RoadSidewaysStiffness: 1.1
+  RoadSidewaysStiffness: 0.8
   TerrainSidewaysStiffness: 0.2
 --- !u!146 &383664815
 WheelCollider:
@@ -9574,7 +9575,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1.1
+    m_Stiffness: 0.9
   m_Enabled: 1
 --- !u!114 &383664816
 MonoBehaviour:
@@ -9590,7 +9591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RoadForwardStiffness: 3
   TerraintForwardStiffness: 0.6
-  RoadSidewaysStiffness: 1.1
+  RoadSidewaysStiffness: 0.9
   TerrainSidewaysStiffness: 0.2
 --- !u!1001 &385461317
 PrefabInstance:

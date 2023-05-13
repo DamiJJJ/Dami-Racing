@@ -69,7 +69,7 @@ public class RaceType : MonoBehaviour
                     }
                 }
                 // Fail
-                else if(!SaveScript.Gold && !SaveScript.Silver && !SaveScript.Bronze)
+                if(!SaveScript.Gold && !SaveScript.Silver && !SaveScript.Bronze)
                 {
                     SaveScript.Fail = true;
                 }

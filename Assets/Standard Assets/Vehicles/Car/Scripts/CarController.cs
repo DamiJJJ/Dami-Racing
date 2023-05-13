@@ -36,6 +36,7 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private float m_RevRangeBoundary = 1f;
         [SerializeField] private float m_SlipLimit;
         [SerializeField] private float m_BrakeTorque;
+        public float MySteerHelper = 0.66f;
 
         private Quaternion[] m_WheelMeshLocalRotations;
         private Vector3 m_Prevpos, m_Pos;
@@ -77,6 +78,15 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             SaveScript.Speed = CurrentSpeed;
             SaveScript.Gear = m_GearNum;
+
+            if(SaveScript.BrakeSlide)
+            {
+                m_SteerHelper = 0.99f;
+            }
+            if(!SaveScript.BrakeSlide)
+            {
+                m_SteerHelper = MySteerHelper;
+            }
         }
 
         private void GearChanging()
