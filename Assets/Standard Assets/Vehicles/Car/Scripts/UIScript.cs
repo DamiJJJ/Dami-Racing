@@ -58,6 +58,7 @@ public class UIScript : MonoBehaviour
         TotalCarsText.text = TotalCars.ToString("/0");
         PlayersPosition.text = "1";
 
+
         TimeTrialPanel.SetActive(true);
         TimeTrialResults.SetActive(false);
         // Setting the timeTrial times

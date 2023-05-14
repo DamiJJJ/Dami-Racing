@@ -48,6 +48,8 @@ namespace UnityStandardAssets.Vehicles.Car
         private Rigidbody m_Rigidbody;
         private const float k_ReversingThreshold = 0.01f;
 
+        public bool Player = true;
+
         public bool Skidding { get; private set; }
         public float BrakeInput { get; private set; }
         public float CurrentSteerAngle{ get { return m_SteerAngle; }}
@@ -76,9 +78,11 @@ namespace UnityStandardAssets.Vehicles.Car
 
         private void Update()
         {
-            SaveScript.Speed = CurrentSpeed;
-            SaveScript.Gear = m_GearNum;
-
+            if(Player)
+            {
+                SaveScript.Speed = CurrentSpeed;
+                SaveScript.Gear = m_GearNum;
+            }
             if(SaveScript.BrakeSlide)
             {
                 m_SteerHelper = 0.99f;
@@ -309,27 +313,29 @@ namespace UnityStandardAssets.Vehicles.Car
                 WheelHit wheelHit;
                 m_WheelColliders[i].GetGroundHit(out wheelHit);
 
-                if (wheelHit.collider)
+                if(Player)
                 {
-                     if(SaveScript.OnTheTerrain)
+                    if (wheelHit.collider)
                     {
-                        if(wheelHit.collider.CompareTag("Road"))
+                        if(SaveScript.OnTheTerrain)
                         {
-                            SaveScript.OnTheRoad = true;
-                            SaveScript.OnTheTerrain = false;
+                            if(wheelHit.collider.CompareTag("Road"))
+                            {
+                                SaveScript.OnTheRoad = true;
+                                SaveScript.OnTheTerrain = false;
+                            }
                         }
-                    }
 
-                    if(SaveScript.OnTheRoad)
-                    {
-                        if(wheelHit.collider.CompareTag("Terrain"))
+                        if(SaveScript.OnTheRoad)
                         {
-                            SaveScript.OnTheRoad = false;
-                            SaveScript.OnTheTerrain = true;
+                            if(wheelHit.collider.CompareTag("Terrain"))
+                            {
+                                SaveScript.OnTheRoad = false;
+                                SaveScript.OnTheTerrain = true;
+                            }
                         }
                     }
                 }
-                
                 // is the tire slipping above the given threshhold
                 if (Mathf.Abs(wheelHit.forwardSlip) >= m_SlipLimit || Mathf.Abs(wheelHit.sidewaysSlip) >= m_SlipLimit)
                 {
@@ -374,6 +380,8 @@ namespace UnityStandardAssets.Vehicles.Car
                     m_WheelColliders[2].GetGroundHit(out wheelHit);
                     AdjustTorque(wheelHit.forwardSlip);
 
+                if(Player)
+                {
                     if (wheelHit.collider)
                     {
                         if(wheelHit.collider.CompareTag("RumbleStrip") && CurrentSpeed > 10)
@@ -385,10 +393,12 @@ namespace UnityStandardAssets.Vehicles.Car
                             SaveScript.Rumble1 = false;
                         }
                     }
-
+                }                   
                     m_WheelColliders[3].GetGroundHit(out wheelHit);
                     AdjustTorque(wheelHit.forwardSlip);
 
+                if(Player)
+                {
                     if (wheelHit.collider)
                     {
                         if(wheelHit.collider.CompareTag("RumbleStrip") && CurrentSpeed > 10)
@@ -400,6 +410,7 @@ namespace UnityStandardAssets.Vehicles.Car
                             SaveScript.Rumble2 = false;
                         }
                     }
+                }
                     break;
 
                 case CarDriveType.FrontWheelDrive:
