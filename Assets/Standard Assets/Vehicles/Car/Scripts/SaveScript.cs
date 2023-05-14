@@ -49,6 +49,7 @@ public class SaveScript : MonoBehaviour
     public static bool Silver = false;
     public static bool Bronze = false;
     public static bool Fail = false;
+    public static bool Penalty = false;
     public static float PenaltySeconds = 0;
 
     private void Update()

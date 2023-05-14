@@ -37,6 +37,7 @@ public class UIScript : MonoBehaviour
     public GameObject CheckPointDisplay;
     public GameObject NewLapRecord;
     public GameObject WrongWayText;
+    public GameObject PenaltyText;
     public int TotalLaps = 1;
     public int TotalCars = 1;
 
@@ -216,6 +217,18 @@ public class UIScript : MonoBehaviour
                 StartCoroutine(WinDisplay());
             }
         }
+        //! Display Penalty Label (INDEV)
+        if(SaveScript.Penalty)
+        {
+            StartCoroutine(showPenalty());
+            SaveScript.Penalty = false;
+        }
+
+        //! Exit game (INDEV)
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     IEnumerator CheckPointOff()
@@ -252,5 +265,11 @@ public class UIScript : MonoBehaviour
         {
             WinMessage.text = "try again";
         }
+    }
+    IEnumerator showPenalty()
+    {
+        PenaltyText.SetActive(true);
+        yield return new WaitForSeconds(2);
+        PenaltyText.SetActive(false);
     }
 }

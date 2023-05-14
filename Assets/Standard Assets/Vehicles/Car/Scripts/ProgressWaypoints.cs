@@ -29,6 +29,7 @@ public class ProgressWaypoints : MonoBehaviour
                 if(CarTracking < PenaltyWayPoint)
                 {
                     Debug.Log("Penalty");
+                    SaveScript.Penalty = true;
                     SaveScript.PenaltySeconds += 10f;
                     PenaltyOption = false;
                 }
