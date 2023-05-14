@@ -4877,7 +4877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &233476122
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9215,6 +9215,7 @@ MonoBehaviour:
   m_SlipLimit: 0.8
   m_BrakeTorque: 40000
   MySteerHelper: 0.66
+  Player: 1
 --- !u!114 &380466867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9227,7 +9228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20fa55eb64c5cea4aa3c71ae19c434bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  engineSoundStyle: 0
+  engineSoundStyle: 1
   lowAccelClip: {fileID: 8300000, guid: c4d8928c75c21af43998193f0f038429, type: 3}
   lowDecelClip: {fileID: 8300000, guid: c4d8928c75c21af43998193f0f038429, type: 3}
   highAccelClip: {fileID: 8300000, guid: 03e3bd08a6e70684dbe299a3e185fdd2, type: 3}
@@ -33624,6 +33625,7 @@ GameObject:
   - component: {fileID: 1462737456}
   - component: {fileID: 1462737461}
   - component: {fileID: 1462737460}
+  - component: {fileID: 1462737462}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -33748,18 +33750,6 @@ MonoBehaviour:
   WrongWayT: {fileID: 878094493}
   PlayersPosition: {fileID: 787037219}
   TotalCarsText: {fileID: 857888125}
-  TimeTrialMinutesG: {fileID: 2128255676}
-  TimeTrialMinutesS: {fileID: 1696557930}
-  TimeTrialMinutesB: {fileID: 445750124}
-  TimeTrialSecondsG: {fileID: 439459578}
-  TimeTrialSecondsS: {fileID: 1061910686}
-  TimeTrialSecondsB: {fileID: 261792393}
-  WinMessage: {fileID: 277229899}
-  TimeTrialPanel: {fileID: 211591422}
-  TimeTrialResults: {fileID: 1941700558}
-  GoldStar: {fileID: 1385599148}
-  SilverStar: {fileID: 1656237871}
-  BronzeStar: {fileID: 1068623353}
   CheckPointDisplay: {fileID: 2099041042}
   NewLapRecord: {fileID: 76122498}
   WrongWayText: {fileID: 878094492}
@@ -33778,6 +33768,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 148b383240eb137419ceed46ab9d0e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1462737462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462737455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15278efc1d9248a4a9bfce4325c753a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeTrialMinutesG: {fileID: 2128255676}
+  TimeTrialMinutesS: {fileID: 1696557930}
+  TimeTrialMinutesB: {fileID: 445750124}
+  TimeTrialSecondsG: {fileID: 439459578}
+  TimeTrialSecondsS: {fileID: 1061910686}
+  TimeTrialSecondsB: {fileID: 261792393}
+  TimeTrialPanel: {fileID: 211591422}
+  WinMessage: {fileID: 277229899}
+  GoldStar: {fileID: 1385599148}
+  SilverStar: {fileID: 1656237871}
+  BronzeStar: {fileID: 1068623353}
+  TimeTrialResults: {fileID: 1941700558}
 --- !u!1001 &1465611172
 PrefabInstance:
   m_ObjectHideFlags: 0

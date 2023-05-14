@@ -21,19 +21,6 @@ public class UIScript : MonoBehaviour
     // Position objects
     public TextMeshProUGUI PlayersPosition;
     public TextMeshProUGUI TotalCarsText;
-    // Time Trial objects
-    public TextMeshProUGUI TimeTrialMinutesG;
-    public TextMeshProUGUI TimeTrialMinutesS;
-    public TextMeshProUGUI TimeTrialMinutesB;
-    public TextMeshProUGUI TimeTrialSecondsG;
-    public TextMeshProUGUI TimeTrialSecondsS;
-    public TextMeshProUGUI TimeTrialSecondsB;
-    public TextMeshProUGUI WinMessage;
-    public GameObject TimeTrialPanel;
-    public GameObject TimeTrialResults;
-    public GameObject GoldStar;
-    public GameObject SilverStar;
-    public GameObject BronzeStar;
     public GameObject CheckPointDisplay;
     public GameObject NewLapRecord;
     public GameObject WrongWayText;
@@ -42,7 +29,6 @@ public class UIScript : MonoBehaviour
     public int TotalCars = 1;
 
     private float DisplaySpeed;
-    private bool Winner = false;
 
     private void Start()
     {
@@ -57,17 +43,6 @@ public class UIScript : MonoBehaviour
         SaveScript.MaxLaps = TotalLaps;
         TotalCarsText.text = TotalCars.ToString("/0");
         PlayersPosition.text = "1";
-
-
-        TimeTrialPanel.SetActive(true);
-        TimeTrialResults.SetActive(false);
-        // Setting the timeTrial times
-        TimeTrialMinutesG.text = SaveScript.TimeTrialMinG.ToString("00:");
-        TimeTrialSecondsG.text = SaveScript.TimeTrialSecondsG.ToString("00");
-        TimeTrialMinutesS.text = SaveScript.TimeTrialMinS.ToString("00:");
-        TimeTrialSecondsS.text = SaveScript.TimeTrialSecondsS.ToString("00");
-        TimeTrialMinutesB.text = SaveScript.TimeTrialMinB.ToString("00:");
-        TimeTrialSecondsB.text = SaveScript.TimeTrialSecondsB.ToString("00");
     }
 
     private void Update()
@@ -209,15 +184,6 @@ public class UIScript : MonoBehaviour
         // Display Position
         PlayersPosition.text = SaveScript.PlayerPosition.ToString();
 
-        // Timetrial
-        if(SaveScript.RaceOver)
-        {
-            if(!Winner)
-            {
-                Winner = true;
-                StartCoroutine(WinDisplay());
-            }
-        }
         //! Display Penalty Label (INDEV)
         if(SaveScript.Penalty)
         {
@@ -242,30 +208,6 @@ public class UIScript : MonoBehaviour
         yield return new WaitForSeconds(2);
         SaveScript.NewRecord = false;
         NewLapRecord.SetActive(false);
-    }
-    IEnumerator WinDisplay()
-    {
-        yield return new WaitForSeconds(0.15f);
-        TimeTrialResults.SetActive(true);
-        if(SaveScript.Gold)
-        {
-            WinMessage.text = "You won gold";
-            GoldStar.SetActive(true);
-        }
-        if(SaveScript.Silver)
-        {
-            WinMessage.text = "You won silver";
-            SilverStar.SetActive(true);
-        }
-        if(SaveScript.Bronze)
-        {
-            WinMessage.text = "You won bronze";
-            BronzeStar.SetActive(true);
-        }
-        if(SaveScript.Fail)
-        {
-            WinMessage.text = "try again";
-        }
     }
     IEnumerator showPenalty()
     {
