@@ -2,7 +2,7 @@
 
 Projekt gry 3D w środowisku Unity. Gra wyścigowa.
 
-## Current apk version: indev1.0
+## Current game version: indev1.0
 
 ## Download
 
