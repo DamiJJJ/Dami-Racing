@@ -13401,7 +13401,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653452624}
-  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
+  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
   m_LocalPosition: {x: 152.71373, y: 1.5708996, z: -134.60085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -32841,7 +32841,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686412903}
-  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
+  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
   m_LocalPosition: {x: 152.71373, y: 1.5708996, z: -134.60085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -41688,6 +41688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: F1 Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2130900291793557103, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2130900291793557107, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
         type: 3}
       propertyPath: m_RootOrder
@@ -41770,6 +41775,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892965554162781752, guid: 3857153d75a5d7842bdda2904c6f989a,
+        type: 3}
+      propertyPath: dopplerLevel
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 9127079926698187529, guid: 3857153d75a5d7842bdda2904c6f989a,
         type: 3}
@@ -41905,6 +41915,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1629625612}
+    - target: {fileID: 9163869627491207641, guid: 6cfd68d5aa17e3a4f9c29751b9bb01f2,
+        type: 3}
+      propertyPath: dopplerLevel
+      value: 3000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfd68d5aa17e3a4f9c29751b9bb01f2, type: 3}
 --- !u!1001 &6503172349538351808
@@ -41914,6 +41929,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9018104122265458406, guid: cecc600f4c611d04f930301d4013e1e0,
+        type: 3}
+      propertyPath: dopplerLevel
+      value: 3000
+      objectReference: {fileID: 0}
     - target: {fileID: 9018104122275144564, guid: cecc600f4c611d04f930301d4013e1e0,
         type: 3}
       propertyPath: m_Name
@@ -42058,6 +42078,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1629625612}
+    - target: {fileID: 8977963536148445522, guid: 5bd397e1c40d1444aaaf98169a3f274a,
+        type: 3}
+      propertyPath: dopplerLevel
+      value: 3000
+      objectReference: {fileID: 0}
     - target: {fileID: 8977963536860480872, guid: 5bd397e1c40d1444aaaf98169a3f274a,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -42141,6 +42166,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: F1 AI MidCar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098026245128634052, guid: 78f1eae529c95f849a96a4d53a89e9a4,
+        type: 3}
+      propertyPath: dopplerLevel
+      value: 3000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78f1eae529c95f849a96a4d53a89e9a4, type: 3}
