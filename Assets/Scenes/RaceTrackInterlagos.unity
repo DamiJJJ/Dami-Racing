@@ -179,18 +179,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &778059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -254,18 +242,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &783429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -341,18 +317,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &5512730
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -485,18 +449,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &7605529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -566,18 +518,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &14601053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -973,18 +913,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &44996603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1130,18 +1058,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &57413317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1874,18 +1790,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &97513994
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2225,18 +2129,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &105750494
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2676,18 +2568,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &128056454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2757,18 +2637,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &130730416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3375,18 +3243,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &160781211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3683,18 +3539,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &172364648
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3764,18 +3608,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &175996886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3977,18 +3809,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &177248966
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4170,18 +3990,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &192385067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4597,18 +4405,6 @@ MonoBehaviour:
   PenaltyOption: 1
   PenaltyWayPoint: 50
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &205467303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4757,18 +4553,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &212398504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5899,18 +5683,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &262096185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6057,18 +5829,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &263678652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6578,18 +6338,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &275183320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6795,18 +6543,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &281026425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7170,18 +6906,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &326953392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7773,18 +7497,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &344284832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8259,18 +7971,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &361919932
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8358,18 +8058,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &370127892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9136,18 +8824,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &422433694
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9911,18 +9587,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &444365321
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10406,18 +10070,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &468008126
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11163,18 +10815,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &508538853
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11382,18 +11022,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &512706748
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12018,18 +11646,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &551381809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12925,18 +12541,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &604183272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13112,18 +12716,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &613398516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14578,18 +14170,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &677131674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14659,18 +14239,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &682103275
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14973,18 +14541,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &705895007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15138,18 +14694,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &723460778
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15457,18 +15001,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &734501471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15532,18 +15064,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &736936885
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16104,18 +15624,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &779852456
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16887,18 +16395,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &826150281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18146,18 +17642,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &894900941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18302,18 +17786,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &903790355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18637,18 +18109,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &917250811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19194,18 +18654,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &962083570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19275,18 +18723,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &966449369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20073,18 +19509,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1006505766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20148,18 +19572,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1007434869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20674,18 +20086,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1043774785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20818,18 +20218,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1046702747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20962,18 +20350,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1051983559
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21037,18 +20413,6 @@ MonoBehaviour:
   PenaltyOption: 1
   PenaltyWayPoint: 50
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1053561992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21575,18 +20939,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1078688865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22358,18 +21710,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1130956058
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22439,18 +21779,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1134669614
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23687,18 +23015,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1218454744
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23768,18 +23084,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1228393084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24064,18 +23368,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1236997956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25009,18 +24301,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1258548251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25084,18 +24364,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1260097835
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25159,18 +24427,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1261451072
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25471,18 +24727,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1273805875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25864,18 +25108,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1312638250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25945,18 +25177,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1314646403
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26537,18 +25757,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1342369331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26977,18 +26185,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1362164096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27190,18 +26386,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1370488383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27671,18 +26855,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1386640054
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27896,18 +27068,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1391457046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27971,18 +27131,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1396479264
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28374,18 +27522,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1417847790
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28550,18 +27686,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1424621768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28637,18 +27761,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1430385862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28781,18 +27893,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1438576269
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29317,8 +28417,8 @@ MonoBehaviour:
   NewLapRecord: {fileID: 76122498}
   WrongWayText: {fileID: 878094492}
   PenaltyText: {fileID: 1166901450}
-  TotalLaps: 5
-  TotalCars: 1
+  TotalLaps: 3
+  TotalCars: 6
 --- !u!114 &1462737461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29533,18 +28633,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1467406361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30008,18 +29096,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1484157628
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30785,18 +29861,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1516489532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31084,18 +30148,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1543939172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31362,18 +30414,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1556930613
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31518,18 +30558,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1567510474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32105,18 +31133,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1590309291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32480,18 +31496,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1602367243
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32555,18 +31559,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1606115977
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32774,18 +31766,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1618818914
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32925,18 +31905,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1621364095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33346,18 +32314,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1640616814
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33572,18 +32528,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1664219771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34550,18 +33494,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1715054936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34692,18 +33624,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1736878361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34767,18 +33687,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1738492532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34925,18 +33833,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1741413234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35715,18 +34611,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1768561147
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36087,18 +34971,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1788697892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36580,18 +35452,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1802624172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37206,18 +36066,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1864929504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37293,18 +36141,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1871824880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37674,18 +36510,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1890546850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38031,18 +36855,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1904956182
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38325,18 +37137,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1915435417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39156,18 +37956,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1974537558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39511,18 +38299,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1988151957
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39661,18 +38437,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &1993895535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39823,18 +38587,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &2002801490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40421,18 +39173,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &2035748696
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41238,18 +39978,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &2057970351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41313,18 +40041,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &2059007964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41688,18 +40404,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &2088937795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42585,18 +41289,6 @@ MonoBehaviour:
   PenaltyOption: 0
   PenaltyWayPoint: 0
   Position: 0
-  Lap1Position: 0
-  Lap2Position: 0
-  Lap3Position: 0
-  Lap4Position: 0
-  Lap5Position: 0
-  Lap6Position: 0
-  Lap7Position: 0
-  Lap8Position: 0
-  Lap9Position: 0
-  Lap10Position: 0
-  Lap11Position: 0
-  Lap12Position: 0
 --- !u!65 &2129040133
 BoxCollider:
   m_ObjectHideFlags: 0

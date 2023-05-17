@@ -26,7 +26,7 @@ public class UIScript : MonoBehaviour
     public GameObject WrongWayText;
     public GameObject PenaltyText;
     public int TotalLaps = 1;
-    public int TotalCars = 1;
+    public int TotalCars = 6;
 
     private float DisplaySpeed;
 
