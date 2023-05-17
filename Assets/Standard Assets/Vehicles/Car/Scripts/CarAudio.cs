@@ -106,10 +106,6 @@ namespace UnityStandardAssets.Vehicles.Car
                 if(camDist < maxRolloffDistance*maxRolloffDistance)
                 {
                     m_HighAccel.volume = Mathf.Clamp(m_HighAccel.volume += 0.3f * Time.deltaTime, 0f, 1f);
-                    // if(m_HighAccel.volume >= 1)
-                    // {
-                    //     m_HighAccel.volume = 1;
-                    // }
                 }
             }
 
@@ -129,12 +125,7 @@ namespace UnityStandardAssets.Vehicles.Car
                     if(camDist < maxRolloffDistance*maxRolloffDistance)
                     {
                         m_HighAccel.volume = Mathf.Clamp(m_HighAccel.volume += 0.3f * Time.deltaTime, 0f, 1f);
-                        // if(m_HighAccel.volume >= 1)
-                        // {
-                        //     m_HighAccel.volume = 1;
-                        // }
                     }
-                    // m_HighAccel.volume = 1;
                 }
                 else
                 {
