@@ -221,10 +221,13 @@ namespace UnityStandardAssets.Vehicles.Car
                     m_AvoidOtherCarTime = Time.time + 1;
 
                     // but who's in front?...
-                    if (Vector3.Angle(transform.forward, otherAI.transform.position - transform.position) < 90)
+                    if(otherAI != null)
                     {
-                        // the other ai is in front, so it is only good manners that we ought to brake...
-                        m_AvoidOtherCarSlowdown = 0.5f;
+                        if (Vector3.Angle(transform.forward, otherAI.transform.position - transform.position) < 90)
+                        {
+                            // the other ai is in front, so it is only good manners that we ought to brake...
+                            m_AvoidOtherCarSlowdown = 0.5f;
+                        }
                     }
                     if (Vector3.Angle(transform.forward, PlayerCar.transform.position - transform.position) < 90)
                     {
@@ -239,9 +242,12 @@ namespace UnityStandardAssets.Vehicles.Car
 
                     // both cars should take evasive action by driving along an offset from the path centre,
                     // away from the other car
-                    var otherCarLocalDelta = transform.InverseTransformPoint(otherAI.transform.position);
-                    float otherCarAngle = Mathf.Atan2(otherCarLocalDelta.x, otherCarLocalDelta.z);
-                    m_AvoidPathOffset = m_LateralWanderDistance*-Mathf.Sign(otherCarAngle);
+                    if(otherAI != null)
+                    {
+                        var otherCarLocalDelta = transform.InverseTransformPoint(otherAI.transform.position);
+                        float otherCarAngle = Mathf.Atan2(otherCarLocalDelta.x, otherCarLocalDelta.z);
+                        m_AvoidPathOffset = m_LateralWanderDistance*-Mathf.Sign(otherCarAngle);
+                    }
                 }
             }
         }
