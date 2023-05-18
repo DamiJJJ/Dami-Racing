@@ -12,7 +12,7 @@ public class CarPositions : MonoBehaviour
     public GameObject Slot8;
 
     public GameObject Stats;
-
+    
     public int AICarNumber;
     public bool Player;
     private int Pos;
