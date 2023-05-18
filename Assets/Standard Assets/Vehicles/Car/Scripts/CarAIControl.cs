@@ -48,6 +48,8 @@ namespace UnityStandardAssets.Vehicles.Car
 
         private bool BarrierStop = false;
 
+        private bool RaceCompleted = false;
+
 
         private void Awake()
         {
@@ -71,7 +73,7 @@ namespace UnityStandardAssets.Vehicles.Car
             }
             else
             {
-                if(SaveScript.RaceStart)
+                if(SaveScript.RaceStart && !RaceCompleted)
                 {
                     Vector3 fwd = transform.forward;
                     if (m_Rigidbody.velocity.magnitude > m_CarController.MaxSpeed*0.1f)
@@ -197,6 +199,10 @@ namespace UnityStandardAssets.Vehicles.Car
             {
                 BarrierStop = true;
             }
+            if(other.gameObject.CompareTag("StopDriving"))
+            {
+                StartCoroutine(StopDriving());
+            }
         }
 
         private void OnTriggerExit(Collider other)
@@ -261,8 +267,15 @@ namespace UnityStandardAssets.Vehicles.Car
 
         IEnumerator BarrierReset()
         {
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(Random.Range(1f, 5f));
             BarrierStop = false;
+        }
+
+        IEnumerator StopDriving()
+        {
+            yield return new WaitForSeconds(Random.Range(1f, 5f));
+            RaceCompleted = true;
+            m_CarController.Move(0, 0, -1f, 1f);
         }
     }
 }

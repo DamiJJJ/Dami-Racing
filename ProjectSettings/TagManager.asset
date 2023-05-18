@@ -18,6 +18,7 @@ TagManager:
   - ProgressAI5
   - ProgressAI6
   - ProgressAI7
+  - StopDriving
   layers:
   - Default
   - TransparentFX
