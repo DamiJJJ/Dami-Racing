@@ -5006,7 +5006,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -180, y: -117.9}
+  m_AnchoredPosition: {x: -180, y: -117.8999}
   m_SizeDelta: {x: 1606.6001, y: 1866.1802}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &211591424
@@ -5640,7 +5640,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &233476122
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16402,7 +16402,7 @@ MonoBehaviour:
   AI5: 0
   AI6: 0
   AI7: 0
-  CarName: Jill
+  CarName: Arek
 --- !u!65 &672040705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20876,7 +20876,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -142.69998, y: -685.7378}
+  m_AnchoredPosition: {x: -142.7002, y: -685.7378}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &914845823
@@ -21790,7 +21790,7 @@ MonoBehaviour:
   AI5: 0
   AI6: 0
   AI7: 0
-  CarName: Henry
+  CarName: Iwona
 --- !u!65 &957936767
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22146,7 +22146,7 @@ MonoBehaviour:
   AI5: 0
   AI6: 0
   AI7: 0
-  CarName: Joe
+  CarName: Maks
 --- !u!65 &981797071
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28523,7 +28523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 142.3, y: 276.2}
+  m_AnchoredPosition: {x: 142.2998, y: 276.19995}
   m_SizeDelta: {x: 1024, y: 1024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1271999581
@@ -28826,7 +28826,7 @@ MonoBehaviour:
   AI5: 0
   AI6: 1
   AI7: 0
-  CarName: Alice
+  CarName: Nikolas
 --- !u!65 &1291846398
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32437,7 +32437,7 @@ MonoBehaviour:
   NewLapRecord: {fileID: 76122498}
   WrongWayText: {fileID: 878094492}
   PenaltyText: {fileID: 1166901450}
-  TotalLaps: 1
+  TotalLaps: 2
   TotalCars: 6
 --- !u!114 &1462737461
 MonoBehaviour:
@@ -33039,7 +33039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Leaderboard: {fileID: 1097979339}
-  PlayerName: Damian
+  PlayerName: Player
 --- !u!65 &1479119282
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40020,7 +40020,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 111.30005, y: 12.800049}
+  m_AnchoredPosition: {x: 111.30029, y: 17.800049}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1799614703
@@ -40043,7 +40043,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: in-development build 1.0
+  m_text: 'in-development build 1.1
+
+    Race track mode'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4cb32b9ab00c8f44ba95b590cb832f8e, type: 2}
   m_sharedMaterial: {fileID: 6181214889613149257, guid: 4cb32b9ab00c8f44ba95b590cb832f8e,
@@ -44430,7 +44432,7 @@ MonoBehaviour:
   AI5: 0
   AI6: 0
   AI7: 0
-  CarName: Sarah
+  CarName: Damian
 --- !u!65 &2011157184
 BoxCollider:
   m_ObjectHideFlags: 0

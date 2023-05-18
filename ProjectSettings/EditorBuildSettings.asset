@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TimeTrialInterlagos.unity
-    guid: d650a3c82f0973544aa1e2b6d92333b0
+    path: Assets/Scenes/RaceTrackInterlagos.unity
+    guid: f49e3ce1282693145a67f8c0c27132ef
   m_configObjects: {}

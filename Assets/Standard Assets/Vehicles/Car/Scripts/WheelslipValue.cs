@@ -5,9 +5,9 @@ public class WheelslipValue : MonoBehaviour
     WheelCollider WheelC;
     
     public float RoadForwardStiffness = 3f;
-    public float TerraintForwardStiffness = 0.6f;
+    public float TerraintForwardStiffness = 0.8f;
     public float RoadSidewaysStiffness = 1.1f;
-    public float TerrainSidewaysStiffness = 0.2f;
+    public float TerrainSidewaysStiffness = 0.4f;
     
     private bool Changed = false;
 

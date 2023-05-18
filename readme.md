@@ -2,8 +2,6 @@
 
 Projekt gry 3D w środowisku Unity. Gra wyścigowa.
 
-## Current game version: indev1.0
-
 ## Download
 
 Download _[here](https://damijjj.itch.io/ddrive)_.
