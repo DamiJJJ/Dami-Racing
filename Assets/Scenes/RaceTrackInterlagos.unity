@@ -939,6 +939,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FinishPoint: {fileID: 1479119280}
+  FinishPointAI1: {fileID: 957936764}
+  FinishPointAI2: {fileID: 2011157181}
+  FinishPointAI3: {fileID: 981797068}
+  FinishPointAI4: {fileID: 672040702}
+  FinishPointAI5: {fileID: 1161914635}
+  FinishPointAI6: {fileID: 1291846395}
+  FinishPointAI7: {fileID: 1993120417}
 --- !u!1001 &55694927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13401,7 +13408,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653452624}
-  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
+  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
   m_LocalPosition: {x: 152.71373, y: 1.5708996, z: -134.60085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14114,6 +14121,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
+--- !u!1 &672040702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 672040703}
+  - component: {fileID: 672040705}
+  - component: {fileID: 672040704}
+  m_Layer: 0
+  m_Name: FinishPointAI4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &672040703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672040702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4893, y: 1.5895, z: 0.0495}
+  m_LocalScale: {x: 0.0018076963, y: 0.34334534, z: 0.13774845}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 503203243}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &672040704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672040702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d35c2f0d48e99418c14749e0bcb99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AI1: 0
+  AI2: 0
+  AI3: 0
+  AI4: 1
+  AI5: 0
+  AI6: 0
+  AI7: 0
+  CarName: Jill
+--- !u!65 &672040705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672040702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &675520768 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -17381,7 +17454,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3938a4b89e4bc2b46ad206be2c21c139,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Barrier
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3938a4b89e4bc2b46ad206be2c21c139, type: 3}
@@ -18428,7 +18501,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3938a4b89e4bc2b46ad206be2c21c139,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Barrier
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3938a4b89e4bc2b46ad206be2c21c139, type: 3}
@@ -18521,6 +18594,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1237201902}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &957936764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 957936765}
+  - component: {fileID: 957936767}
+  - component: {fileID: 957936766}
+  m_Layer: 0
+  m_Name: FinishPointAI1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &957936765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957936764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4893, y: 1.5895, z: 0.0495}
+  m_LocalScale: {x: 0.0018076963, y: 0.34334534, z: 0.13774845}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 503203243}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &957936766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957936764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d35c2f0d48e99418c14749e0bcb99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AI1: 1
+  AI2: 0
+  AI3: 0
+  AI4: 0
+  AI5: 0
+  AI6: 0
+  AI7: 0
+  CarName: Henry
+--- !u!65 &957936767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957936764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &960946952
 GameObject:
   m_ObjectHideFlags: 0
@@ -18811,6 +18950,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 841675932}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &981797068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 981797069}
+  - component: {fileID: 981797071}
+  - component: {fileID: 981797070}
+  m_Layer: 0
+  m_Name: FinishPointAI3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &981797069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981797068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4893, y: 1.5895, z: 0.0495}
+  m_LocalScale: {x: 0.0018076963, y: 0.34334534, z: 0.13774845}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 503203243}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &981797070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981797068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d35c2f0d48e99418c14749e0bcb99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AI1: 0
+  AI2: 0
+  AI3: 1
+  AI4: 0
+  AI5: 0
+  AI6: 0
+  AI7: 0
+  CarName: Joe
+--- !u!65 &981797071
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981797068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &983261526 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -21347,7 +21552,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3938a4b89e4bc2b46ad206be2c21c139,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Barrier
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3938a4b89e4bc2b46ad206be2c21c139, type: 3}
@@ -22469,6 +22674,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1051841186}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1161914635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1161914636}
+  - component: {fileID: 1161914638}
+  - component: {fileID: 1161914637}
+  m_Layer: 0
+  m_Name: FinishPointAI5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1161914636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161914635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4893, y: 1.5895, z: 0.0495}
+  m_LocalScale: {x: 0.0018076963, y: 0.34334534, z: 0.13774845}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 503203243}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1161914637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161914635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d35c2f0d48e99418c14749e0bcb99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AI1: 0
+  AI2: 0
+  AI3: 0
+  AI4: 0
+  AI5: 1
+  AI6: 0
+  AI7: 0
+  CarName: Bob
+--- !u!65 &1161914638
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161914635}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1164842986 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -24821,6 +25092,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 273736816}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1291846395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291846396}
+  - component: {fileID: 1291846398}
+  - component: {fileID: 1291846397}
+  m_Layer: 0
+  m_Name: FinishPointAI6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1291846396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291846395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4893, y: 1.5895, z: 0.0495}
+  m_LocalScale: {x: 0.0018076963, y: 0.34334534, z: 0.13774845}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 503203243}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1291846397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291846395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d35c2f0d48e99418c14749e0bcb99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AI1: 0
+  AI2: 0
+  AI3: 0
+  AI4: 0
+  AI5: 0
+  AI6: 1
+  AI7: 0
+  CarName: Alice
+--- !u!65 &1291846398
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291846395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1292768926 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -28417,7 +28754,7 @@ MonoBehaviour:
   NewLapRecord: {fileID: 76122498}
   WrongWayText: {fileID: 878094492}
   PenaltyText: {fileID: 1166901450}
-  TotalLaps: 3
+  TotalLaps: 2
   TotalCars: 6
 --- !u!114 &1462737461
 MonoBehaviour:
@@ -32841,7 +33178,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686412903}
-  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
+  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
   m_LocalPosition: {x: 152.71373, y: 1.5708996, z: -134.60085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -38387,6 +38724,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1846674886}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1993120417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1993120420}
+  - component: {fileID: 1993120419}
+  - component: {fileID: 1993120418}
+  m_Layer: 0
+  m_Name: FinishPointAI7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1993120418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993120417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d35c2f0d48e99418c14749e0bcb99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AI1: 0
+  AI2: 0
+  AI3: 0
+  AI4: 0
+  AI5: 0
+  AI6: 0
+  AI7: 1
+  CarName: Brian
+--- !u!65 &1993120419
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993120417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1993120420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993120417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4893, y: 1.5895, z: 0.0495}
+  m_LocalScale: {x: 0.0018076963, y: 0.34334534, z: 0.13774845}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 503203243}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1993895532
 GameObject:
   m_ObjectHideFlags: 0
@@ -38825,6 +39228,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1503814646}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2011157181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2011157182}
+  - component: {fileID: 2011157184}
+  - component: {fileID: 2011157183}
+  m_Layer: 0
+  m_Name: FinishPointAI2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2011157182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011157181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4893, y: 1.5895, z: 0.0495}
+  m_LocalScale: {x: 0.0018076963, y: 0.34334534, z: 0.13774845}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 503203243}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2011157183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011157181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d35c2f0d48e99418c14749e0bcb99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AI1: 0
+  AI2: 1
+  AI3: 0
+  AI4: 0
+  AI5: 0
+  AI6: 0
+  AI7: 0
+  CarName: Sarah
+--- !u!65 &2011157184
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011157181}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &2012831894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,

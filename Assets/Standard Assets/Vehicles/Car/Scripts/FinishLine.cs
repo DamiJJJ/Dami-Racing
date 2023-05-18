@@ -6,6 +6,7 @@ public class FinishLine : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
+            SaveScript.FinishPositionID++;
             SaveScript.RaceOver = true;
             Time.timeScale = 0.2f;
         }
