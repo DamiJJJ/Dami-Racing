@@ -25,13 +25,14 @@ public class UIScript : MonoBehaviour
     public GameObject NewLapRecord;
     public GameObject WrongWayText;
     public GameObject PenaltyText;
-    public int TotalLaps = 1;
+    private int TotalLaps = 1;
     public int TotalCars = 6;
 
     private float DisplaySpeed;
 
     private void Start()
     {
+        TotalLaps = UniversalSave.LapCounts;
         SpeedRing.fillAmount = 0;
         SpeedText.text = "0";
         GearText.text = "1";

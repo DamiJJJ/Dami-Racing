@@ -1,12 +1,16 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class OptionsMenuScript : MonoBehaviour
 {
     public TextMeshProUGUI Mode;
     public TextMeshProUGUI LapCount;
     public TextMeshProUGUI OpponentCount;
+
+    public int TimeTrialSceneNumber;
+    public int RaceTrackSceneNumber;
+
     private bool TimeTrial = true;
     private int CurrentLapCount = 1;
     private int CurrentOpponentCount = 1;
@@ -35,6 +39,7 @@ public class OptionsMenuScript : MonoBehaviour
         {
             CurrentLapCount++;
             LapCount.text = CurrentLapCount + " LAPS";
+            UniversalSave.LapCounts = CurrentLapCount;
         }
     }
 
@@ -44,11 +49,13 @@ public class OptionsMenuScript : MonoBehaviour
         {
             CurrentLapCount--;
             LapCount.text = CurrentLapCount + " LAPS";
+            UniversalSave.LapCounts = CurrentLapCount;
         }
         else if(CurrentLapCount == 2)
         {
             CurrentLapCount--;
             LapCount.text = CurrentLapCount + " LAP";
+            UniversalSave.LapCounts = CurrentLapCount;
         }
     }
 
@@ -71,6 +78,18 @@ public class OptionsMenuScript : MonoBehaviour
         {
             CurrentOpponentCount--;
             OpponentCount.text = CurrentOpponentCount + " OPPONENT";
+        }
+    }
+
+    public void BeginRace()
+    {
+        if(TimeTrial)
+        {
+            SceneManager.LoadScene(TimeTrialSceneNumber);
+        }
+        if(!TimeTrial)
+        {
+            SceneManager.LoadScene(RaceTrackSceneNumber);
         }
     }
 }
