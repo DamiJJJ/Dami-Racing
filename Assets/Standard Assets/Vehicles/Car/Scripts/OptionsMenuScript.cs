@@ -1,3 +1,4 @@
+using  System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
@@ -7,6 +8,8 @@ public class OptionsMenuScript : MonoBehaviour
     public TextMeshProUGUI Mode;
     public TextMeshProUGUI LapCount;
     public TextMeshProUGUI OpponentCount;
+    public GameObject LoadScreen;
+    public GameObject OpponentsOn;
 
     public int TimeTrialSceneNumber;
     public int RaceTrackSceneNumber;
@@ -21,6 +24,7 @@ public class OptionsMenuScript : MonoBehaviour
         {
             Mode.text = "RACE";
             TimeTrial = false;
+            OpponentsOn.SetActive(true);
         }
     }
 
@@ -30,6 +34,7 @@ public class OptionsMenuScript : MonoBehaviour
         {
             Mode.text = "TIME TRIAL";
             TimeTrial = true;
+            OpponentsOn.SetActive(false);
         }
     }
 
@@ -83,6 +88,14 @@ public class OptionsMenuScript : MonoBehaviour
 
     public void BeginRace()
     {
+        StartCoroutine(WaitToLoad());
+    }
+
+    IEnumerator WaitToLoad()
+    {
+        yield return new WaitForSeconds(0.3f);
+        LoadScreen.SetActive(true);
+        UniversalSave.LapCounts = CurrentLapCount;
         if(TimeTrial)
         {
             SceneManager.LoadScene(TimeTrialSceneNumber);
@@ -91,5 +104,6 @@ public class OptionsMenuScript : MonoBehaviour
         {
             SceneManager.LoadScene(RaceTrackSceneNumber);
         }
+        
     }
 }
