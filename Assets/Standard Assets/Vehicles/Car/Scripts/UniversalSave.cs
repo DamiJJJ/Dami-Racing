@@ -7,7 +7,7 @@ public class UniversalSave : MonoBehaviour
     public static int CreditAmount;
     public static bool Saving = false;
 
-    private void Start()
+    private void Awake()
     {
         DontDestroyOnLoad(this);
         LoadStats();
