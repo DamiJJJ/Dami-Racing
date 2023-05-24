@@ -97,8 +97,49 @@ public class OptionsMenuScript : MonoBehaviour
         StartCoroutine(WaitToLoad());
     }
 
+    void ResetValues()
+    {
+        Time.timeScale = 1.0f;
+        SaveScript.LapNumber = 0;
+        SaveScript.LapChange = false;
+        SaveScript.LapTimeMinutes = 0.0f;
+        SaveScript.LapTimeSeconds = 0.0f;
+        SaveScript.RaceTimeMinutes = 0.0f;
+        SaveScript.RaceTimeSeconds = 0.0f;
+        SaveScript.LastLapM = 0.0f;
+        SaveScript.LastLapS = 0.0f;
+        SaveScript.GameTime = 0.0f;
+        SaveScript.LastCheckPoint1 = 0.0f;
+        SaveScript.LastCheckPoint2 = 0.0f;
+        SaveScript.LastCheckPoint3 = 0.0f;
+        SaveScript.ThisCheckPoint1 = 0.0f;
+        SaveScript.ThisCheckPoint2 = 0.0f;
+        SaveScript.ThisCheckPoint3 = 0.0f;
+        SaveScript.CheckPointPass1 = false;
+        SaveScript.CheckPointPass2 = false;
+        SaveScript.CheckPointPass3 = false;
+        SaveScript.HalfWayActivated = true;
+        SaveScript.RaceStart = false;
+        SaveScript.RaceOver = false;
+        SaveScript.PlayerPosition = 0;
+        SaveScript.Gold = false;
+        SaveScript.Silver = false;
+        SaveScript.Bronze = false;
+        SaveScript.Fail = false;
+        SaveScript.PenaltySeconds = 0;
+        SaveScript.AICar1LapNumber = 0;
+        SaveScript.AICar2LapNumber = 0;
+        SaveScript.AICar3LapNumber = 0;
+        SaveScript.AICar4LapNumber = 0;
+        SaveScript.AICar5LapNumber = 0;
+        SaveScript.AICar6LapNumber = 0;
+        SaveScript.AICar7LapNumber = 0;
+        SaveScript.FinishPositionID = 0;
+    }
+
     IEnumerator WaitToLoad()
     {
+        ResetValues();
         yield return new WaitForSeconds(0.3f);
         LoadScreen.SetActive(true);
         if(TimeTrial)
