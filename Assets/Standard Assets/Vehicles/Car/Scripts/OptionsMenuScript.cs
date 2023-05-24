@@ -26,7 +26,7 @@ public class OptionsMenuScript : MonoBehaviour
             Mode.text = "RACE";
             TimeTrial = false;
             OpponentsOn.SetActive(true);
-            LapsOn.SetActive(false);
+            LapsOn.SetActive(true);
         }
     }
 
@@ -37,7 +37,7 @@ public class OptionsMenuScript : MonoBehaviour
             Mode.text = "TIME TRIAL";
             TimeTrial = true;
             OpponentsOn.SetActive(false);
-            LapsOn.SetActive(true);
+            LapsOn.SetActive(false);
         }
     }
 
