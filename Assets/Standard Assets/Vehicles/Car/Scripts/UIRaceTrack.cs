@@ -27,24 +27,28 @@ public class UIRaceTrack : MonoBehaviour
             WinMessage.text = "1st place";
             Credits.text = FirstPlaceCredits.ToString();
             UniversalSave.CreditAmount += FirstPlaceCredits;
+            UniversalSave.RacesWon++;
             break;
 
             case 2:
             WinMessage.text = "2nd place";
             Credits.text = SecondPlaceCredits.ToString();
             UniversalSave.CreditAmount += SecondPlaceCredits;
+            UniversalSave.RacesWon++;
             break;
 
             case 3:
             WinMessage.text = "3rd place";
             Credits.text = ThirdPlaceCredits.ToString();
             UniversalSave.CreditAmount += ThirdPlaceCredits;
+            UniversalSave.RacesWon++;
             break;
         }
         if(FinishLine.PLayerFinishPosition > 3)
         {
             WinMessage.text = FinishLine.PLayerFinishPosition + "th place";
             Credits.text = "0";
+            UniversalSave.RacesLost++;
         }
         UniversalSave.Saving = true;
     }
