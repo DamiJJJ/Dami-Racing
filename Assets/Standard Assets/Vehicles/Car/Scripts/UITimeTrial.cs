@@ -18,7 +18,7 @@ public class UITimeTrial : MonoBehaviour
     public GameObject SilverStar;
     public GameObject BronzeStar;
     public GameObject TimeTrialResults;
-    public GameObject QuitPanel;
+    // public GameObject QuitPanel;
 
     public int GoldCredits = 3000;
     public int SilverCredits = 1500;
@@ -29,7 +29,7 @@ public class UITimeTrial : MonoBehaviour
     {
         TimeTrialPanel.SetActive(true);
         TimeTrialResults.SetActive(false);  
-        QuitPanel.SetActive(false);
+        // QuitPanel.SetActive(false);
     }
 
     private void Update()
@@ -50,21 +50,6 @@ public class UITimeTrial : MonoBehaviour
                 StartCoroutine(WinDisplay());
             }
         }
-
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            QuitPanel.SetActive(true);
-        }
-    }
-
-    public void ReturnToMenu()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-    public void QuitClose()
-    {
-        QuitPanel.SetActive(false);
     }
 
     IEnumerator WinDisplay()

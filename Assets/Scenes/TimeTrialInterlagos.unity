@@ -34392,6 +34392,7 @@ MonoBehaviour:
   WrongWayText: {fileID: 878094492}
   PenaltyText: {fileID: 1166901450}
   cars: []
+  QuitMenu: {fileID: 1575633094}
 --- !u!114 &1462737461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34429,7 +34430,6 @@ MonoBehaviour:
   SilverStar: {fileID: 948715589}
   BronzeStar: {fileID: 318426129}
   TimeTrialResults: {fileID: 1941700558}
-  QuitPanel: {fileID: 1575633094}
   GoldCredits: 3000
   SilverCredits: 1500
   BronzeCredits: 700
@@ -43295,7 +43295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1941700559
 RectTransform:
   m_ObjectHideFlags: 0
@@ -45892,9 +45892,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1462737462}
-        m_TargetAssemblyTypeName: UITimeTrial, Assembly-CSharp-firstpass
-        m_MethodName: QuitClose
+      - m_Target: {fileID: 1462737460}
+        m_TargetAssemblyTypeName: UIScript, Assembly-CSharp-firstpass
+        m_MethodName: CloseQuit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -46519,9 +46519,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1462737462}
-        m_TargetAssemblyTypeName: UITimeTrial, Assembly-CSharp-firstpass
-        m_MethodName: ReturnToMenu
+      - m_Target: {fileID: 1462737460}
+        m_TargetAssemblyTypeName: UIScript, Assembly-CSharp-firstpass
+        m_MethodName: QuitRace
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

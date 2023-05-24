@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class UIScript : MonoBehaviour
@@ -30,6 +31,7 @@ public class UIScript : MonoBehaviour
     private float DisplaySpeed;
 
     public GameObject[] cars;
+    public GameObject QuitMenu;
 
     private void Start()
     {
@@ -46,6 +48,7 @@ public class UIScript : MonoBehaviour
         SaveScript.MaxLaps = TotalLaps;
         TotalCarsText.text = TotalCars.ToString("/0");
         PlayersPosition.text = "1";
+        QuitMenu.SetActive(false);
         SetCarVisibility();
     }
 
@@ -250,6 +253,16 @@ public class UIScript : MonoBehaviour
         // Display Position
         PlayersPosition.text = SaveScript.PlayerPosition.ToString();
 
+        // Switching on the quit menu
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitMenu.SetActive(true);
+            // if(Input.GetKeyDown(KeyCode.Escape))
+            // {
+            //     QuitMenu.SetActive(false);
+            // }
+        }
+
         //! Display Penalty Label (INDEV)
         if(SaveScript.Penalty)
         {
@@ -274,5 +287,15 @@ public class UIScript : MonoBehaviour
         PenaltyText.SetActive(true);
         yield return new WaitForSeconds(2);
         PenaltyText.SetActive(false);
+    }
+
+    public void QuitRace()
+    {
+        SceneManager.LoadScene(1);
+    }
+    
+    public void CloseQuit()
+    {
+        QuitMenu.SetActive(false);
     }
 }
