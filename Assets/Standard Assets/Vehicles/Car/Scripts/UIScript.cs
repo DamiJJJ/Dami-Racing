@@ -26,13 +26,15 @@ public class UIScript : MonoBehaviour
     public GameObject WrongWayText;
     public GameObject PenaltyText;
     private int TotalLaps = 1;
-    public int TotalCars = 6;
-
+    private int TotalCars = 6;
     private float DisplaySpeed;
+
+    public GameObject[] cars;
 
     private void Start()
     {
         TotalLaps = UniversalSave.LapCounts;
+        TotalCars = UniversalSave.OpponentsCount + 1;
         SpeedRing.fillAmount = 0;
         SpeedText.text = "0";
         GearText.text = "1";
@@ -44,6 +46,77 @@ public class UIScript : MonoBehaviour
         SaveScript.MaxLaps = TotalLaps;
         TotalCarsText.text = TotalCars.ToString("/0");
         PlayersPosition.text = "1";
+        SetCarVisibility();
+    }
+
+    void SetCarVisibility()
+    {
+        switch(TotalCars)
+        {
+            case 2:
+            cars[0].SetActive(true);
+            for(int i = 1; i <= cars.Length - 1; i++)
+            {
+                cars[i].SetActive(false);
+            }
+            break;
+            case 3:
+            cars[0].SetActive(true);
+            cars[1].SetActive(true);
+            for(int i = 2; i <= cars.Length - 1; i++)
+            {
+                cars[i].SetActive(false);
+            }
+            break;
+            case 4:
+            cars[0].SetActive(true);
+            cars[1].SetActive(true);
+            cars[2].SetActive(true);
+            for(int i = 3; i <= cars.Length - 1; i++)
+            {
+                cars[i].SetActive(false);
+            }
+            break;
+            case 5:
+            cars[0].SetActive(true);
+            cars[1].SetActive(true);
+            cars[2].SetActive(true);
+            cars[3].SetActive(true);
+            for(int i = 4; i <= cars.Length - 1; i++)
+            {
+                cars[i].SetActive(false);
+            }
+            break;
+            case 6:
+            cars[5].SetActive(false);
+            cars[6].SetActive(false);
+            for(int i = 0; i <= 4; i++)
+            {
+                cars[i].SetActive(true);
+            }
+            break;
+            case 7:
+            cars[6].SetActive(false);
+            for(int i = 0; i <= 5; i++)
+            {
+                cars[i].SetActive(true);
+            }
+            break;
+            case 8:
+            for(int i = 0; i <= cars.Length - 1; i++)
+            {
+                cars[i].SetActive(true);
+            }
+            break;
+        }
+        // if(TotalCars == 1)
+        // {
+        //     cars[0].SetActive(true);
+        //     for(int i = 0; i <= cars.Length; i++)
+        //     {
+        //         cars[i].SetActive(false);
+        //     }
+        // }
     }
 
     private void Update()

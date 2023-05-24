@@ -70,6 +70,7 @@ public class OptionsMenuScript : MonoBehaviour
         {
             CurrentOpponentCount++;
             OpponentCount.text = CurrentOpponentCount + " OPPONENTS";
+            UniversalSave.OpponentsCount = CurrentOpponentCount;
         }
     }
     public void OpponentBack()
@@ -78,11 +79,13 @@ public class OptionsMenuScript : MonoBehaviour
         {
             CurrentOpponentCount--;
             OpponentCount.text = CurrentOpponentCount + " OPPONENTS";
+            UniversalSave.OpponentsCount = CurrentOpponentCount;
         }
         else if(CurrentOpponentCount == 2)
         {
             CurrentOpponentCount--;
             OpponentCount.text = CurrentOpponentCount + " OPPONENT";
+            UniversalSave.OpponentsCount = CurrentOpponentCount;
         }
     }
 
@@ -103,6 +106,7 @@ public class OptionsMenuScript : MonoBehaviour
         if(!TimeTrial)
         {
             SceneManager.LoadScene(RaceTrackSceneNumber);
+            UniversalSave.OpponentsCount = CurrentOpponentCount;
         }
         
     }
