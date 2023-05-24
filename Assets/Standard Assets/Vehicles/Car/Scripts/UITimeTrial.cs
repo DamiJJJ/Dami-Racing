@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class UITimeTrial : MonoBehaviour
@@ -45,23 +45,28 @@ public class UITimeTrial : MonoBehaviour
         }
     }
 
+    public void ContinueButton()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     IEnumerator WinDisplay()
     {
         yield return new WaitForSeconds(0.15f);
         TimeTrialResults.SetActive(true);
         if(SaveScript.Gold)
         {
-            WinMessage.text = "You won gold";
+            WinMessage.text = "gold";
             GoldStar.SetActive(true);
         }
         if(SaveScript.Silver)
         {
-            WinMessage.text = "You won silver";
+            WinMessage.text = "silver";
             SilverStar.SetActive(true);
         }
         if(SaveScript.Bronze)
         {
-            WinMessage.text = "You won bronze";
+            WinMessage.text = "bronze";
             BronzeStar.SetActive(true);
         }
         if(SaveScript.Fail)
