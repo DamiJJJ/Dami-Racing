@@ -675,6 +675,7 @@ MonoBehaviour:
   OpponentCount: {fileID: 1061100244}
   LoadScreen: {fileID: 1014837020}
   OpponentsOn: {fileID: 1061100242}
+  LapsOn: {fileID: 1179637510}
   TimeTrialSceneNumber: 2
   RaceTrackSceneNumber: 3
 --- !u!1 &651243273
@@ -1589,7 +1590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1179637511
 RectTransform:
   m_ObjectHideFlags: 0

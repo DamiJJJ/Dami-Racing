@@ -109,14 +109,6 @@ public class UIScript : MonoBehaviour
             }
             break;
         }
-        // if(TotalCars == 1)
-        // {
-        //     cars[0].SetActive(true);
-        //     for(int i = 0; i <= cars.Length; i++)
-        //     {
-        //         cars[i].SetActive(false);
-        //     }
-        // }
     }
 
     private void Update()
@@ -263,12 +255,6 @@ public class UIScript : MonoBehaviour
         {
             StartCoroutine(showPenalty());
             SaveScript.Penalty = false;
-        }
-
-        //! Exit game (INDEV)
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
         }
     }
 

@@ -10,6 +10,7 @@ public class OptionsMenuScript : MonoBehaviour
     public TextMeshProUGUI OpponentCount;
     public GameObject LoadScreen;
     public GameObject OpponentsOn;
+    public GameObject LapsOn;
 
     public int TimeTrialSceneNumber;
     public int RaceTrackSceneNumber;
@@ -25,6 +26,7 @@ public class OptionsMenuScript : MonoBehaviour
             Mode.text = "RACE";
             TimeTrial = false;
             OpponentsOn.SetActive(true);
+            LapsOn.SetActive(false);
         }
     }
 
@@ -35,6 +37,7 @@ public class OptionsMenuScript : MonoBehaviour
             Mode.text = "TIME TRIAL";
             TimeTrial = true;
             OpponentsOn.SetActive(false);
+            LapsOn.SetActive(true);
         }
     }
 
@@ -98,13 +101,15 @@ public class OptionsMenuScript : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         LoadScreen.SetActive(true);
-        UniversalSave.LapCounts = CurrentLapCount;
         if(TimeTrial)
         {
+            UniversalSave.LapCounts = 1;
+            UniversalSave.OpponentsCount = 0;
             SceneManager.LoadScene(TimeTrialSceneNumber);
         }
         if(!TimeTrial)
         {
+            UniversalSave.LapCounts = CurrentLapCount;
             SceneManager.LoadScene(RaceTrackSceneNumber);
             UniversalSave.OpponentsCount = CurrentOpponentCount;
         }
