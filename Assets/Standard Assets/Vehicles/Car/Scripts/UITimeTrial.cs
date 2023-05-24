@@ -11,6 +11,7 @@ public class UITimeTrial : MonoBehaviour
     public TextMeshProUGUI TimeTrialSecondsG;
     public TextMeshProUGUI TimeTrialSecondsS;
     public TextMeshProUGUI TimeTrialSecondsB;
+    public TextMeshProUGUI Credits;
     public GameObject TimeTrialPanel;
     public TextMeshProUGUI WinMessage;
     public GameObject GoldStar;
@@ -19,6 +20,9 @@ public class UITimeTrial : MonoBehaviour
     public GameObject TimeTrialResults;
     public GameObject QuitPanel;
 
+    public int GoldCredits = 3000;
+    public int SilverCredits = 1500;
+    public int BronzeCredits = 700;
 
     private bool Winner = false;
     private void Start()
@@ -71,20 +75,28 @@ public class UITimeTrial : MonoBehaviour
         {
             WinMessage.text = "gold";
             GoldStar.SetActive(true);
+            Credits.text = GoldCredits.ToString();
+            UniversalSave.CreditAmount += GoldCredits;
         }
         if(SaveScript.Silver)
         {
             WinMessage.text = "silver";
             SilverStar.SetActive(true);
+            Credits.text = SilverCredits.ToString();
+            UniversalSave.CreditAmount += SilverCredits;
         }
         if(SaveScript.Bronze)
         {
             WinMessage.text = "bronze";
             BronzeStar.SetActive(true);
+            Credits.text = BronzeCredits.ToString();
+            UniversalSave.CreditAmount += BronzeCredits;
         }
         if(SaveScript.Fail)
         {
             WinMessage.text = "try again";
+            Credits.text = "0";
         }
+        UniversalSave.Saving = true;
     }
 }

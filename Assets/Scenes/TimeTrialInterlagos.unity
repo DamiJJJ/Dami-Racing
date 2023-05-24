@@ -19650,7 +19650,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653452624}
-  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
+  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
   m_LocalPosition: {x: 147.98373, y: 1.5708996, z: -145.49084}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -34422,6 +34422,7 @@ MonoBehaviour:
   TimeTrialSecondsG: {fileID: 439459578}
   TimeTrialSecondsS: {fileID: 1061910686}
   TimeTrialSecondsB: {fileID: 261792393}
+  Credits: {fileID: 1574045422}
   TimeTrialPanel: {fileID: 211591422}
   WinMessage: {fileID: 277229899}
   GoldStar: {fileID: 1385599148}
@@ -34429,6 +34430,9 @@ MonoBehaviour:
   BronzeStar: {fileID: 318426129}
   TimeTrialResults: {fileID: 1941700558}
   QuitPanel: {fileID: 1575633094}
+  GoldCredits: 3000
+  SilverCredits: 1500
+  BronzeCredits: 700
 --- !u!1001 &1465611172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38592,7 +38596,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686412903}
-  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
+  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
   m_LocalPosition: {x: 147.98373, y: 1.5708996, z: -145.49084}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -43291,7 +43295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1941700559
 RectTransform:
   m_ObjectHideFlags: 0
