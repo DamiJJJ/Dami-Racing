@@ -7,6 +7,7 @@ public class LeaderboardDisplay : MonoBehaviour
     public TextMeshProUGUI Name;
     public TextMeshProUGUI Results;
 
+    // TODO1 Lepszy system tego (może struct)
     public bool AI1;
     public bool AI2;
     public bool AI3;

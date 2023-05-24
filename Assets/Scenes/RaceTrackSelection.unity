@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameDisplay: {fileID: 881835212}
   NewName: {fileID: 1295817007}
-  RacesWonDisplay: {fileID: 1854801157}
+  RacesWonDisplay: {fileID: 943157692}
   RacesLostDisplay: {fileID: 1397095460}
   InputField: {fileID: 492026812}
   StatsPanel: {fileID: 516342156}

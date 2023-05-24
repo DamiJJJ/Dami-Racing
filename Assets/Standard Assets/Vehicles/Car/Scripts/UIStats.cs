@@ -1,5 +1,5 @@
+using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class UIStats : MonoBehaviour
@@ -15,7 +15,7 @@ public class UIStats : MonoBehaviour
     private void Start()
     {
         InputField.SetActive(false);
-        NameDisplay.text = UniversalSave.PlayerName;
+        StartCoroutine(UpdateStats());
     }
 
     private void Update()
@@ -45,5 +45,13 @@ public class UIStats : MonoBehaviour
     public void SwitchOffStats()
     {
         StatsPanel.SetActive(false);
+    }
+
+    IEnumerator UpdateStats()
+    {
+        yield return new WaitForSeconds(0.05f);
+        NameDisplay.text = UniversalSave.PlayerName;
+        RacesWonDisplay.text = UniversalSave.RacesWon.ToString();
+        RacesLostDisplay.text = UniversalSave.RacesLost.ToString();
     }
 }

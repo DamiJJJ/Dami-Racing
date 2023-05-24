@@ -10,7 +10,7 @@ public class UniversalSave : MonoBehaviour
     public static int RacesWon = 0;
     public static int RacesLost = 0;
 
-    private void Awake()
+    private void Start()
     {
         DontDestroyOnLoad(this);
         LoadStats();

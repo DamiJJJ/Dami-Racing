@@ -18329,7 +18329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 2102041799}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &576105618
@@ -34393,6 +34393,8 @@ MonoBehaviour:
   PenaltyText: {fileID: 1166901450}
   cars: []
   QuitMenu: {fileID: 1575633094}
+  YesButton: {fileID: 0}
+  NoButton: {fileID: 0}
 --- !u!114 &1462737461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34938,7 +34940,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Leaderboard: {fileID: 1941700558}
-  PlayerName: Player
 --- !u!65 &1479119282
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40541,9 +40542,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1462737462}
-        m_TargetAssemblyTypeName: UITimeTrial, Assembly-CSharp-firstpass
-        m_MethodName: ReturnToMenu
+      - m_Target: {fileID: 1462737460}
+        m_TargetAssemblyTypeName: UIScript, Assembly-CSharp-firstpass
+        m_MethodName: QuitRace
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -45861,12 +45862,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
+    m_SelectOnLeft: {fileID: 2102041801}
+    m_SelectOnRight: {fileID: 2077224789}
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
@@ -46488,12 +46489,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
+    m_SelectOnLeft: {fileID: 2102041801}
+    m_SelectOnRight: {fileID: 2077224789}
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}

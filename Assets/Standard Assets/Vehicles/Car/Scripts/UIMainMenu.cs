@@ -7,6 +7,7 @@ public class UIMainMenu : MonoBehaviour
     public GameObject StatsPanel;
     private void Start()
     {
+        Time.timeScale = 1;
         CreditsText.text = UniversalSave.CreditAmount.ToString();
     }
 

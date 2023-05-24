@@ -46,6 +46,31 @@ public class FinishLineAI : MonoBehaviour
     public static float AICar7RTMinutes;
     public static float AICar7RTSeconds;
 
+    private void Start()
+    {
+        AICar1FinishPos = 0;
+        AICar1RTMinutes = 0;
+        AICar1RTSeconds = 0;
+        AICar2FinishPos = 0;
+        AICar2RTMinutes = 0;
+        AICar2RTSeconds = 0;
+        AICar3FinishPos = 0;
+        AICar3RTMinutes = 0;
+        AICar3RTSeconds = 0;
+        AICar4FinishPos = 0;
+        AICar4RTMinutes = 0;
+        AICar4RTSeconds = 0;
+        AICar5FinishPos = 0;
+        AICar5RTMinutes = 0;
+        AICar5RTSeconds = 0;
+        AICar6FinishPos = 0;
+        AICar6RTMinutes = 0;
+        AICar6RTSeconds = 0;
+        AICar7FinishPos = 0;
+        AICar7RTMinutes = 0;
+        AICar7RTSeconds = 0;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if(AI1)

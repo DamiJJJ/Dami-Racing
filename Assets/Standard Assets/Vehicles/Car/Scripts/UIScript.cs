@@ -32,6 +32,8 @@ public class UIScript : MonoBehaviour
 
     public GameObject[] cars;
     public GameObject QuitMenu;
+    public Button YesButton;
+    public Button NoButton;
 
     private void Start()
     {
@@ -257,10 +259,8 @@ public class UIScript : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             QuitMenu.SetActive(true);
-            // if(Input.GetKeyDown(KeyCode.Escape))
-            // {
-            //     QuitMenu.SetActive(false);
-            // }
+            Time.timeScale = 0;
+            AudioListener.pause = true;
         }
 
         //! Display Penalty Label (INDEV)
@@ -292,10 +292,13 @@ public class UIScript : MonoBehaviour
     public void QuitRace()
     {
         SceneManager.LoadScene(1);
+        AudioListener.pause = false;
     }
     
     public void CloseQuit()
     {
+        Time.timeScale = 1;
+        AudioListener.pause = false;
         QuitMenu.SetActive(false);
     }
 }
