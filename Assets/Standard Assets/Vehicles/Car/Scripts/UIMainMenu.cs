@@ -15,4 +15,9 @@ public class UIMainMenu : MonoBehaviour
     {
         StatsPanel.SetActive(true);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
