@@ -9411,7 +9411,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7074191969154327873}
-  m_LocalRotation: {x: -0, y: 0.7194171, z: -0, w: 0.69457835}
+  m_LocalRotation: {x: 0, y: 0.71941864, z: 0, w: 0.6945768}
   m_LocalPosition: {x: 1679.4666, y: 15.140285, z: 1478.9984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9484,6 +9484,9 @@ MonoBehaviour:
   m_BrakeTorque: 90000
   MySteerHelper: 0.66
   Player: 1
+  F1Car: 0
+  BrakeLightsOff: {fileID: 1394702475439215664}
+  BrakeLightsOn: {fileID: 7074191969413773137}
 --- !u!114 &7074191969164005597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9532,6 +9535,7 @@ GameObject:
   - component: {fileID: 7074191969156736207}
   - component: {fileID: 7074191969150434503}
   - component: {fileID: 7074191969164005595}
+  - component: {fileID: 7962217418403257756}
   m_Layer: 0
   m_Name: WheelHubRearRight
   m_TagString: Untagged
@@ -9694,6 +9698,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 3}
   skidParticles: {fileID: 0}
+--- !u!114 &7962217418403257756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7074191969154327881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725f6cfc2a858bf42a693debaef420fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoadForwardStiffness: 1.95
+  TerraintForwardStiffness: 0.95
+  RoadSidewaysStiffness: 0.75
+  TerrainSidewaysStiffness: 0.55
 --- !u!1 &7074191969154327883
 GameObject:
   m_ObjectHideFlags: 0
@@ -9706,6 +9726,7 @@ GameObject:
   - component: {fileID: 7074191969156736201}
   - component: {fileID: 7074191969150434497}
   - component: {fileID: 7074191969164005573}
+  - component: {fileID: 1428186769524962457}
   m_Layer: 0
   m_Name: WheelHubRearLeft
   m_TagString: Untagged
@@ -9868,6 +9889,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 3}
   skidParticles: {fileID: 0}
+--- !u!114 &1428186769524962457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7074191969154327883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725f6cfc2a858bf42a693debaef420fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoadForwardStiffness: 1.95
+  TerraintForwardStiffness: 0.95
+  RoadSidewaysStiffness: 0.75
+  TerrainSidewaysStiffness: 0.55
 --- !u!1 &7074191969154327885
 GameObject:
   m_ObjectHideFlags: 0
@@ -9880,6 +9917,7 @@ GameObject:
   - component: {fileID: 7074191969156736205}
   - component: {fileID: 7074191969150434523}
   - component: {fileID: 7074191969164005599}
+  - component: {fileID: 8336738298600521879}
   m_Layer: 0
   m_Name: WheelHubFrontRight
   m_TagString: Untagged
@@ -10042,6 +10080,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 3}
   skidParticles: {fileID: 0}
+--- !u!114 &8336738298600521879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7074191969154327885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725f6cfc2a858bf42a693debaef420fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoadForwardStiffness: 1.95
+  TerraintForwardStiffness: 0.95
+  RoadSidewaysStiffness: 0.75
+  TerrainSidewaysStiffness: 0.55
 --- !u!1 &7074191969154327887
 GameObject:
   m_ObjectHideFlags: 0
@@ -10054,6 +10108,7 @@ GameObject:
   - component: {fileID: 7074191969156736203}
   - component: {fileID: 7074191969150434501}
   - component: {fileID: 7074191969164005593}
+  - component: {fileID: 6578647260343487579}
   m_Layer: 0
   m_Name: WheelHubFrontLeft
   m_TagString: Untagged
@@ -10216,6 +10271,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 3}
   skidParticles: {fileID: 0}
+--- !u!114 &6578647260343487579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7074191969154327887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725f6cfc2a858bf42a693debaef420fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoadForwardStiffness: 1.95
+  TerraintForwardStiffness: 0.95
+  RoadSidewaysStiffness: 0.75
+  TerrainSidewaysStiffness: 0.55
 --- !u!1 &7074191969154327893
 GameObject:
   m_ObjectHideFlags: 0

@@ -49,6 +49,9 @@ namespace UnityStandardAssets.Vehicles.Car
         private const float k_ReversingThreshold = 0.01f;
 
         public bool Player = true;
+        public bool F1Car = true;
+        public GameObject BrakeLightsOff;
+        public GameObject BrakeLightsOn;
 
         public bool Skidding { get; private set; }
         public float BrakeInput { get; private set; }
@@ -214,6 +217,20 @@ namespace UnityStandardAssets.Vehicles.Car
             AddDownForce();
             CheckForWheelSpin();
             TractionControl();
+
+            if(!F1Car)
+            {
+                if(footbrake > 0)
+                {
+                    BrakeLightsOff.SetActive(false);
+                    BrakeLightsOn.SetActive(true);
+                }
+                else if(footbrake <= 0)
+                {
+                    BrakeLightsOff.SetActive(true);
+                    BrakeLightsOn.SetActive(false);
+                }
+            }
         }
 
 
