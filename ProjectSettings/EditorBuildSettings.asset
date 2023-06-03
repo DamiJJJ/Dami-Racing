@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RaceTrackInterlagos.unity
     guid: f49e3ce1282693145a67f8c0c27132ef
+  - enabled: 1
+    path: Assets/Scenes/OpenWorldTimeTrial.unity
+    guid: bc686f0ed1ab483489b753645ecffaad
   m_configObjects: {}
