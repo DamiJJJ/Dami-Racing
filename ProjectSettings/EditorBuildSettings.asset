@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OpenWorldTimeTrial.unity
     guid: bc686f0ed1ab483489b753645ecffaad
+  - enabled: 1
+    path: Assets/Scenes/CarShowroom.unity
+    guid: 81589c1923cffae44be6aa5a5bcd8692
   m_configObjects: {}

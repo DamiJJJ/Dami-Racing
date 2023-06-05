@@ -16,7 +16,7 @@ public class ColorChange : MonoBehaviour
         {
             var ThisRenderer = this.GetComponent<Renderer>();
 
-            ThisRenderer.material.SetColor("_UnlitBaseColor", SaveScript.CarColor);
+            ThisRenderer.material.SetColor("_UnlitColor", SaveScript.CarColor);
         }
     }
 }
