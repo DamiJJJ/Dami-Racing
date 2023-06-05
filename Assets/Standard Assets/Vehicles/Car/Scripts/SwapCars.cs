@@ -4,8 +4,7 @@ public class SwapCars : MonoBehaviour
 {
     public GameObject[] Cars;
 
-    private int CarNumber = 0;
-
+    public static int CarNumber = 0;
     public void NextCar()
     {
         if (CarNumber < Cars.Length - 1)
