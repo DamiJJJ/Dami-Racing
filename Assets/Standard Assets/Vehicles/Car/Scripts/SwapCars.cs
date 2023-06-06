@@ -32,6 +32,7 @@ public class SwapCars : MonoBehaviour
 
     private void Start()
     {
+        UniversalSave.CarOwned[0] = true;
         Credits.text = UniversalSave.CreditAmount.ToString();
         BuyButton.SetActive(false);
         GetInButton.SetActive(true);
