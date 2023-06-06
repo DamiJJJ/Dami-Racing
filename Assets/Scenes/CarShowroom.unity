@@ -3135,13 +3135,13 @@ MonoBehaviour:
     CarSpeed: 0.6
     CarBraking: 0.5
     CarHandling: 0.7
-    Price: 125000
+    Price: 1
     Owned: 0
   - Car: {fileID: 5491882315970509268}
     CarSpeed: 0.8
     CarBraking: 0.6
     CarHandling: 0.5
-    Price: 210000
+    Price: 2
     Owned: 0
   Credits: {fileID: 945082684}
   Price: {fileID: 349645010}

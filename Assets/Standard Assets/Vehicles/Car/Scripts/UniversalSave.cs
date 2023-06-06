@@ -11,7 +11,7 @@ public class UniversalSave : MonoBehaviour
     public static int RacesWon = 0;
     public static int RacesLost = 0;
 
-    public static bool[] CarOwned;
+    public static bool[] CarOwned = new bool[10];
 
     private void Start()
     {
@@ -34,6 +34,17 @@ public class UniversalSave : MonoBehaviour
         PlayerPrefs.SetString("PlayName", PlayerName);
         PlayerPrefs.SetInt("WonRaces", RacesWon);
         PlayerPrefs.SetInt("LostRaces", RacesLost);
+        for(int i = 0; i < CarOwned.Length; i++)
+        {
+            if(!CarOwned[i])
+            {
+                PlayerPrefs.SetInt("Car"+i, 0);
+            }
+            if(CarOwned[i])
+            {
+                PlayerPrefs.SetInt("Car"+i, 1);
+            }
+        }
     }
 
     public void LoadStats()
@@ -42,5 +53,12 @@ public class UniversalSave : MonoBehaviour
         PlayerName = PlayerPrefs.GetString("PlayName");
         RacesWon = PlayerPrefs.GetInt("WonRaces");
         RacesLost = PlayerPrefs.GetInt("LostRaces");
+        for(int i = 0; i < CarOwned.Length; i++)
+        {
+            if(PlayerPrefs.GetInt("Car"+i) == 1)
+            {
+                CarOwned[i] = true;
+            }
+        }
     }
 }

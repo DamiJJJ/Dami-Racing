@@ -20,7 +20,6 @@ public class SwapCars : MonoBehaviour
 
     public Cars[] AvailableCars;
 
-
     public TextMeshProUGUI Credits;
     public TextMeshProUGUI Price;
     public static int CarNumber = 0;
@@ -58,13 +57,12 @@ public class SwapCars : MonoBehaviour
 
     void DisplayCars()
     {
-
+        AvailableCars[CarNumber].Owned = UniversalSave.CarOwned[CarNumber];
         for (int i = 0; i < AvailableCars.Length; i++)
         {
             AvailableCars[i].Car.SetActive(false);
             if (i == CarNumber)
             {
-
                 AvailableCars[i].Car.SetActive(true);
                 SpeedBar.fillAmount = AvailableCars[i].CarSpeed;
                 BrakingBar.fillAmount = AvailableCars[i].CarBraking;
@@ -87,11 +85,16 @@ public class SwapCars : MonoBehaviour
 
     public void Buy()
     {
-        SaveScript.CarID = CarNumber;
-        SaveScript.CarColor = SaveScript.PreviewCarColor;
-        UniversalSave.CreditAmount -= AvailableCars[CarNumber].Price;
-        AvailableCars[CarNumber].Owned = true;
-        Credits.text = UniversalSave.CreditAmount.ToString();
-        DisplayCars();
+        if(UniversalSave.CreditAmount > AvailableCars[CarNumber].Price)
+        {
+            SaveScript.CarID = CarNumber;
+            SaveScript.CarColor = SaveScript.PreviewCarColor;
+            UniversalSave.CreditAmount -= AvailableCars[CarNumber].Price;
+            AvailableCars[CarNumber].Owned = true;
+            UniversalSave.CarOwned[CarNumber] = AvailableCars[CarNumber].Owned;
+            Credits.text = UniversalSave.CreditAmount.ToString();
+            UniversalSave.Saving = true;
+            DisplayCars();
+        }
     }
 }
