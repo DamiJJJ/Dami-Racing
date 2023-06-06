@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class UniversalSave : MonoBehaviour
@@ -9,6 +10,8 @@ public class UniversalSave : MonoBehaviour
     public static string PlayerName = "player";
     public static int RacesWon = 0;
     public static int RacesLost = 0;
+
+    public static bool[] CarOwned;
 
     private void Start()
     {
