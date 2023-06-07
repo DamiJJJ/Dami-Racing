@@ -13,7 +13,7 @@ public class RaceTrackMenu : MonoBehaviour
     {
         if (F1Race)
         {
-            if (SaveScript.CarID == 1)
+            if (SaveScript.CarID == 0)
             {
                 TrackOptions.SetActive(true);
                 WrongCar.text = " ";
@@ -26,7 +26,7 @@ public class RaceTrackMenu : MonoBehaviour
         }
         if (!F1Race)
         {
-            if (SaveScript.CarID > 1)
+            if (SaveScript.CarID > 0)
             {
                 TrackOptions.SetActive(true);
                 WrongCar.text = " ";

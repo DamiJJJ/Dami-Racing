@@ -174,6 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 102
   CarTracking: 0
   PenaltyOption: 0
@@ -237,6 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 4
   CarTracking: 0
   PenaltyOption: 0
@@ -312,6 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 83
   CarTracking: 0
   PenaltyOption: 0
@@ -444,6 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 65
   CarTracking: 0
   PenaltyOption: 0
@@ -513,6 +517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 44
   CarTracking: 0
   PenaltyOption: 0
@@ -908,6 +913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 36
   CarTracking: 0
   PenaltyOption: 0
@@ -1060,6 +1066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 49
   CarTracking: 0
   PenaltyOption: 0
@@ -1709,6 +1716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 85
   CarTracking: 0
   PenaltyOption: 0
@@ -2048,6 +2056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 66
   CarTracking: 0
   PenaltyOption: 0
@@ -2404,6 +2413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 15
   CarTracking: 0
   PenaltyOption: 0
@@ -2473,6 +2483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 90
   CarTracking: 0
   PenaltyOption: 0
@@ -3053,6 +3064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 20
   CarTracking: 0
   PenaltyOption: 0
@@ -3349,6 +3361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 91
   CarTracking: 0
   PenaltyOption: 0
@@ -3554,6 +3567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 75
   CarTracking: 0
   PenaltyOption: 0
@@ -3755,6 +3769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 77
   CarTracking: 0
   PenaltyOption: 0
@@ -3936,6 +3951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 59
   CarTracking: 0
   PenaltyOption: 0
@@ -4351,6 +4367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 55
   CarTracking: 0
   PenaltyOption: 1
@@ -4536,6 +4553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 47
   CarTracking: 0
   PenaltyOption: 0
@@ -5373,6 +5391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 60
   CarTracking: 0
   PenaltyOption: 0
@@ -5436,6 +5455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 30
   CarTracking: 0
   PenaltyOption: 0
@@ -5862,6 +5882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 9
   CarTracking: 0
   PenaltyOption: 0
@@ -6067,6 +6088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 96
   CarTracking: 0
   PenaltyOption: 0
@@ -6528,6 +6550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 6
   CarTracking: 0
   PenaltyOption: 0
@@ -7036,6 +7059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 29
   CarTracking: 0
   PenaltyOption: 0
@@ -7427,6 +7451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 69
   CarTracking: 0
   PenaltyOption: 0
@@ -8126,6 +8151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 40
   CarTracking: 0
   PenaltyOption: 0
@@ -8926,6 +8952,9 @@ MonoBehaviour:
   m_BrakeTorque: 40000
   MySteerHelper: 0.66
   Player: 1
+  F1Car: 1
+  BrakeLightsOff: {fileID: 0}
+  BrakeLightsOn: {fileID: 0}
 --- !u!114 &380466867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14305,7 +14334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: in-development build 1.2
+  m_text: in-development build 1.3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4cb32b9ab00c8f44ba95b590cb832f8e, type: 2}
   m_sharedMaterial: {fileID: 6181214889613149257, guid: 4cb32b9ab00c8f44ba95b590cb832f8e,
@@ -14584,6 +14613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 100
   CarTracking: 0
   PenaltyOption: 0
@@ -15264,6 +15294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 53
   CarTracking: 0
   PenaltyOption: 0
@@ -15747,6 +15778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 104
   CarTracking: 0
   PenaltyOption: 0
@@ -16299,6 +16331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 10
   CarTracking: 0
   PenaltyOption: 0
@@ -16506,6 +16539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 61
   CarTracking: 0
   PenaltyOption: 0
@@ -17021,6 +17055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 86
   CarTracking: 0
   PenaltyOption: 0
@@ -17916,6 +17951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 42
   CarTracking: 0
   PenaltyOption: 0
@@ -18091,6 +18127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 51
   CarTracking: 0
   PenaltyOption: 0
@@ -18704,7 +18741,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653452624}
-  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
+  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
   m_LocalPosition: {x: 147.98373, y: 1.5708996, z: -145.49084}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -19340,6 +19377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 14
   CarTracking: 0
   PenaltyOption: 0
@@ -19409,6 +19447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 13
   CarTracking: 0
   PenaltyOption: 0
@@ -19628,6 +19667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 58
   CarTracking: 0
   PenaltyOption: 0
@@ -19781,6 +19821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 101
   CarTracking: 0
   PenaltyOption: 0
@@ -19919,6 +19960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 3
   CarTracking: 0
   PenaltyOption: 0
@@ -19982,6 +20024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 84
   CarTracking: 0
   PenaltyOption: 0
@@ -20595,6 +20638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 103
   CarTracking: 0
   PenaltyOption: 0
@@ -21283,6 +21327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 81
   CarTracking: 0
   PenaltyOption: 0
@@ -22421,6 +22466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 94
   CarTracking: 0
   PenaltyOption: 0
@@ -22565,6 +22611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 98
   CarTracking: 0
   PenaltyOption: 0
@@ -22764,6 +22811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 32
   CarTracking: 0
   PenaltyOption: 0
@@ -23235,6 +23283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 35
   CarTracking: 0
   PenaltyOption: 0
@@ -23304,6 +23353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 46
   CarTracking: 0
   PenaltyOption: 0
@@ -24021,6 +24071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 56
   CarTracking: 0
   PenaltyOption: 0
@@ -24084,6 +24135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 72
   CarTracking: 0
   PenaltyOption: 0
@@ -24669,6 +24721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 21
   CarTracking: 0
   PenaltyOption: 0
@@ -24801,6 +24854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 89
   CarTracking: 0
   PenaltyOption: 0
@@ -24933,6 +24987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 62
   CarTracking: 0
   PenaltyOption: 0
@@ -24996,6 +25051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 54
   CarTracking: 0
   PenaltyOption: 1
@@ -25442,6 +25498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 33
   CarTracking: 0
   PenaltyOption: 0
@@ -25951,6 +26008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 28
   CarTracking: 0
   PenaltyOption: 0
@@ -26020,6 +26078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 19
   CarTracking: 0
   PenaltyOption: 0
@@ -27208,6 +27267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 68
   CarTracking: 0
   PenaltyOption: 0
@@ -27277,6 +27337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 16
   CarTracking: 0
   PenaltyOption: 0
@@ -27478,6 +27539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 64
   CarTracking: 0
   PenaltyOption: 0
@@ -28109,6 +28171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 78
   CarTracking: 0
   PenaltyOption: 0
@@ -28172,6 +28235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 82
   CarTracking: 0
   PenaltyOption: 0
@@ -28235,6 +28299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 43
   CarTracking: 0
   PenaltyOption: 0
@@ -28535,6 +28600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 88
   CarTracking: 0
   PenaltyOption: 0
@@ -28916,6 +28982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 57
   CarTracking: 0
   PenaltyOption: 0
@@ -28985,6 +29052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 31
   CarTracking: 0
   PenaltyOption: 0
@@ -29399,6 +29467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 73
   CarTracking: 0
   PenaltyOption: 0
@@ -29744,6 +29813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 52
   CarTracking: 0
   PenaltyOption: 0
@@ -29862,6 +29932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 106
   CarTracking: 0
   PenaltyOption: 0
@@ -30295,6 +30366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 70
   CarTracking: 0
   PenaltyOption: 0
@@ -30508,6 +30580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 27
   CarTracking: 0
   PenaltyOption: 0
@@ -30571,6 +30644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 24
   CarTracking: 0
   PenaltyOption: 0
@@ -30826,6 +30900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 1
   CarTracking: 0
   PenaltyOption: 0
@@ -30907,6 +30982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 63
   CarTracking: 0
   PenaltyOption: 0
@@ -30982,6 +31058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 48
   CarTracking: 0
   PenaltyOption: 0
@@ -31114,6 +31191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 22
   CarTracking: 0
   PenaltyOption: 0
@@ -31803,6 +31881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 11
   CarTracking: 0
   PenaltyOption: 0
@@ -32086,6 +32165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 25
   CarTracking: 0
   PenaltyOption: 0
@@ -32768,6 +32848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 45
   CarTracking: 0
   PenaltyOption: 0
@@ -32979,6 +33060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 79
   CarTracking: 0
   PenaltyOption: 0
@@ -33245,6 +33327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 39
   CarTracking: 0
   PenaltyOption: 0
@@ -33395,6 +33478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 71
   CarTracking: 0
   PenaltyOption: 0
@@ -34060,6 +34144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 74
   CarTracking: 0
   PenaltyOption: 0
@@ -34204,6 +34289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 2
   CarTracking: 0
   PenaltyOption: 0
@@ -34267,6 +34353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 12
   CarTracking: 0
   PenaltyOption: 0
@@ -34474,6 +34561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 41
   CarTracking: 0
   PenaltyOption: 0
@@ -34613,6 +34701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 38
   CarTracking: 0
   PenaltyOption: 0
@@ -34995,6 +35084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 18
   CarTracking: 0
   PenaltyOption: 0
@@ -35133,6 +35223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 76
   CarTracking: 0
   PenaltyOption: 0
@@ -35451,7 +35542,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686412903}
-  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
+  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
   m_LocalPosition: {x: 147.98373, y: 1.5708996, z: -145.49084}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -35933,6 +36024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 26
   CarTracking: 0
   PenaltyOption: 0
@@ -36063,6 +36155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 97
   CarTracking: 0
   PenaltyOption: 0
@@ -36126,6 +36219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 67
   CarTracking: 0
   PenaltyOption: 0
@@ -36189,6 +36283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 93
   CarTracking: 0
   PenaltyOption: 0
@@ -36881,6 +36976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 37
   CarTracking: 0
   PenaltyOption: 0
@@ -37319,6 +37415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 17
   CarTracking: 0
   PenaltyOption: 0
@@ -37664,6 +37761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 99
   CarTracking: 0
   PenaltyOption: 0
@@ -38452,6 +38550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 109
   CarTracking: 0
   PenaltyOption: 0
@@ -38527,6 +38626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 108
   CarTracking: 0
   PenaltyOption: 0
@@ -38813,6 +38913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 5
   CarTracking: 0
   PenaltyOption: 0
@@ -39158,6 +39259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 87
   CarTracking: 0
   PenaltyOption: 0
@@ -39440,6 +39542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 7
   CarTracking: 0
   PenaltyOption: 0
@@ -40018,6 +40121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 95
   CarTracking: 0
   PenaltyOption: 0
@@ -40361,6 +40465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 8
   CarTracking: 0
   PenaltyOption: 0
@@ -40499,6 +40604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 107
   CarTracking: 0
   PenaltyOption: 0
@@ -40649,6 +40755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 92
   CarTracking: 0
   PenaltyOption: 0
@@ -41235,6 +41342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 34
   CarTracking: 0
   PenaltyOption: 0
@@ -41957,6 +42065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 105
   CarTracking: 0
   PenaltyOption: 0
@@ -42020,6 +42129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 50
   CarTracking: 0
   PenaltyOption: 0
@@ -42517,6 +42627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 80
   CarTracking: 0
   PenaltyOption: 0
@@ -43536,6 +43647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e59d9c074d5634a82d6c3a626bd839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoNumeration: 0
   WPNumber: 23
   CarTracking: 0
   PenaltyOption: 0
