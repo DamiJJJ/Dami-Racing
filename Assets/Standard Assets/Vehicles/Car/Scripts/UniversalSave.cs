@@ -34,6 +34,8 @@ public class UniversalSave : MonoBehaviour
         PlayerPrefs.SetString("PlayName", PlayerName);
         PlayerPrefs.SetInt("WonRaces", RacesWon);
         PlayerPrefs.SetInt("LostRaces", RacesLost);
+        PlayerPrefs.SetInt("MyCar", SaveScript.CarID);
+
         for(int i = 0; i < CarOwned.Length; i++)
         {
             if(!CarOwned[i])
@@ -53,6 +55,8 @@ public class UniversalSave : MonoBehaviour
         PlayerName = PlayerPrefs.GetString("PlayName");
         RacesWon = PlayerPrefs.GetInt("WonRaces");
         RacesLost = PlayerPrefs.GetInt("LostRaces");
+        SaveScript.CarID = PlayerPrefs.GetInt("MyCar");
+
         for(int i = 0; i < CarOwned.Length; i++)
         {
             if(PlayerPrefs.GetInt("Car"+i) == 1)

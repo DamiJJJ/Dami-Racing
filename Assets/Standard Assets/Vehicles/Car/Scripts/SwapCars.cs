@@ -29,6 +29,7 @@ public class SwapCars : MonoBehaviour
     public Image HandlingBar;
     public GameObject BuyButton;
     public GameObject GetInButton;
+    public AudioSource MyPlayer;
 
     private void Start()
     {
@@ -88,6 +89,7 @@ public class SwapCars : MonoBehaviour
     {
         if(UniversalSave.CreditAmount > AvailableCars[CarNumber].Price)
         {
+            MyPlayer.Play();
             SaveScript.CarID = CarNumber;
             SaveScript.CarColor = SaveScript.PreviewCarColor;
             UniversalSave.CreditAmount -= AvailableCars[CarNumber].Price;
