@@ -1690,7 +1690,7 @@ MonoBehaviour:
   OpponentsOn: {fileID: 794830408}
   LapsOn: {fileID: 1414993490}
   TimeTrialSceneNumber: 4
-  RaceTrackSceneNumber: 3
+  RaceTrackSceneNumber: 6
 --- !u!1 &651243273
 GameObject:
   m_ObjectHideFlags: 0
@@ -4288,7 +4288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4cb32b9ab00c8f44ba95b590cb832f8e, type: 2}
   m_sharedMaterial: {fileID: 6181214889613149257, guid: 4cb32b9ab00c8f44ba95b590cb832f8e,
