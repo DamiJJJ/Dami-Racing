@@ -20,7 +20,7 @@ public class UIStats : MonoBehaviour
 
     private void Update()
     {
-        if(DisplayChange)
+        if (DisplayChange)
         {
             DisplayChange = false;
             NameDisplay.text = UniversalSave.PlayerName;
@@ -53,5 +53,15 @@ public class UIStats : MonoBehaviour
         NameDisplay.text = UniversalSave.PlayerName;
         RacesWonDisplay.text = UniversalSave.RacesWon.ToString();
         RacesLostDisplay.text = UniversalSave.RacesLost.ToString();
+    }
+
+    public void KeyboardController()
+    {
+        SaveScript.Joypad = false;
+    }
+
+    public void JoypadController()
+    {
+        SaveScript.Joypad = true;
     }
 }

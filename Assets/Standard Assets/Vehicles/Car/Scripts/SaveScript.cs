@@ -62,6 +62,7 @@ public class SaveScript : MonoBehaviour
     public static Color32 CarColor;
     public static Color32 PreviewCarColor;
     public static int CarID;
+    public static bool Joypad = false;
 
     private void Update()
     {
