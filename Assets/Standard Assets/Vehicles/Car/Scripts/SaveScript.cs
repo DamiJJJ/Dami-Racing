@@ -6,7 +6,6 @@ public class SaveScript : MonoBehaviour
     public static float Speed;
     public static float TopSpeed;
     public static int Gear;
-    public static bool BrakeSlide;
     public static int LapNumber;
     public static bool LapChange = false;
     public static float LapTimeMinutes;
@@ -63,6 +62,7 @@ public class SaveScript : MonoBehaviour
     public static Color32 PreviewCarColor;
     public static int CarID;
     public static bool Joypad = false;
+    public static bool BrakeSlide = false;
 
     private void Update()
     {

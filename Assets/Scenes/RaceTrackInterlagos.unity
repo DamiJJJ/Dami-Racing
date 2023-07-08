@@ -14830,7 +14830,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653452624}
-  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
+  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
   m_LocalPosition: {x: 152.71373, y: 1.5708996, z: -134.60085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -35535,7 +35535,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686412903}
-  m_LocalRotation: {x: 0.13592562, y: 0.6195324, z: -0.110044144, w: 0.76524127}
+  m_LocalRotation: {x: 0.1359256, y: 0.61953235, z: -0.11004412, w: 0.76524127}
   m_LocalPosition: {x: 152.71373, y: 1.5708996, z: -134.60085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -46412,6 +46412,56 @@ PrefabInstance:
       propertyPath: m_Name
       value: F1 Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5937277376613138641, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: m_ForwardFriction.m_Stiffness
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277376613138641, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277376613138642, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: RoadForwardStiffness
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277376613138642, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: RoadSidewaysStiffness
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277376808293416, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: RoadForwardStiffness
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277376808293416, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: RoadSidewaysStiffness
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277376808293423, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: m_ForwardFriction.m_Stiffness
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277376808293423, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277377089837529, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277377089837530, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: RoadSidewaysStiffness
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5937277377754904258, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
         type: 3}
       propertyPath: m_RootOrder
@@ -46466,6 +46516,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277377857245353, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937277377857245354, guid: e8e8c853ab1f51e4fb0a4a21a49db5be,
+        type: 3}
+      propertyPath: RoadSidewaysStiffness
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8e8c853ab1f51e4fb0a4a21a49db5be, type: 3}
