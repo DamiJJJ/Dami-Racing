@@ -27,17 +27,19 @@ namespace UnityStandardAssets.Vehicles.Car
 
                 if (SaveScript.Joypad)
                 {
-                    if (CrossPlatformInputManager.GetButton("Fire1"))
+                    if (CrossPlatformInputManager.GetAxis("XboxAccel") > 0)
                     {
-                        v = 2.0f;
+                        if(v < 100.0f)
+                        {
+                            v += 1.0f;
+                        }
                     }
-                    if (CrossPlatformInputManager.GetButton("Fire2"))
+                    if (CrossPlatformInputManager.GetAxis("XboxBrake") > 0 )
                     {
-                        v = -0.5f;
-                    }
-                    if (!CrossPlatformInputManager.GetButton("Fire2") && !CrossPlatformInputManager.GetButton("Fire1"))
-                    {
-                        v = 0;
+                        if(v > -100.0f)
+                        {
+                            v -= 1.0f;
+                        }
                     }
                 }
 
