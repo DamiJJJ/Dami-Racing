@@ -17,6 +17,7 @@ public class WheelslipValue : MonoBehaviour
     private void Start()
     {
         WheelC = GetComponent<WheelCollider>();
+        SaveScript.BrakeSlide = false;
     }
 
     private void Update()
