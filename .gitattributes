@@ -1,1 +1,1 @@
-Assets/Open[[:space:]]World/OWTerrain.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Scenes/Open[[:space:]]World/OWTerrain.asset filter=lfs diff=lfs merge=lfs -text
