@@ -3199,6 +3199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cars:
+  - {fileID: 8220461149890551340, guid: e9a457f680e2a304d82693d87012272b, type: 3}
   - {fileID: 2034088472379752160, guid: e6887428b240fe342805c6184cc749e4, type: 3}
   - {fileID: 4855442999853024247, guid: cd436338e03cf9948a72fc051610f09a, type: 3}
   SpawnPoint: {fileID: 88645275}

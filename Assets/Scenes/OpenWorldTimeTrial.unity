@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -2457,6 +2457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cars:
+  - {fileID: 8220461149890551340, guid: e9a457f680e2a304d82693d87012272b, type: 3}
   - {fileID: 2034088472379752160, guid: e6887428b240fe342805c6184cc749e4, type: 3}
   - {fileID: 4855442999853024247, guid: cd436338e03cf9948a72fc051610f09a, type: 3}
   SpawnPoint: {fileID: 88645275}
@@ -40825,8 +40826,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700008370}
-  m_LocalRotation: {x: 0.091226086, y: 0.7254297, z: -0.09802051, w: 0.67514557}
-  m_LocalPosition: {x: 1675.488, y: 16.73017, z: 1477.6918}
+  m_LocalRotation: {x: 0.09300626, y: 0.7129422, z: -0.09633336, w: 0.68831915}
+  m_LocalPosition: {x: 1662.4923, y: 16.671064, z: 1469.1981}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

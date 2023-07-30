@@ -9,7 +9,7 @@ public class CarSpawning : MonoBehaviour
     {
         for (int i = 0; i < Cars.Length; i++)
         {
-            if (i == SaveScript.CarID - 1)
+            if (i == SaveScript.CarID)
             {
                 Instantiate(Cars[i], SpawnPoint.position, SpawnPoint.rotation);
             }

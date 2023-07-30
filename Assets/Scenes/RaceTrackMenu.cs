@@ -13,29 +13,29 @@ public class RaceTrackMenu : MonoBehaviour
     {
         if (F1Race)
         {
-            if (SaveScript.CarID == 0)
-            {
+            // if (SaveScript.CarID == 0)
+            // {
                 TrackOptions.SetActive(true);
                 WrongCar.text = " ";
-            }
-            else
-            {
-                WrongCar.text = "you need to be using F1 car";
-                StartCoroutine(ResetText());
-            }
+            // }
+            // else
+            // {
+            //     WrongCar.text = "you need to be using F1 car";
+            //     StartCoroutine(ResetText());
+            // }
         }
         if (!F1Race)
         {
-            if (SaveScript.CarID > 0)
-            {
+            // if (SaveScript.CarID > 0)
+            // {
                 TrackOptions.SetActive(true);
                 WrongCar.text = " ";
-            }
-            else
-            {
-                WrongCar.text = "you need to be using sports car";
-                StartCoroutine(ResetText());
-            }
+            // }
+            // else
+            // {
+            //     WrongCar.text = "you need to be using sports car";
+            //     StartCoroutine(ResetText());
+            // }
         }
     }
 
