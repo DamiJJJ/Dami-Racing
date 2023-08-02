@@ -8,35 +8,10 @@ public class RaceTrackMenu : MonoBehaviour
     public bool F1Race = false;
     public TextMeshProUGUI WrongCar;
 
-    // TODO2: Remove F1 availability to be bought, instead make a new race type called F1
     public void OptionsOn()
     {
-        if (F1Race)
-        {
-            // if (SaveScript.CarID == 0)
-            // {
-                TrackOptions.SetActive(true);
-                WrongCar.text = " ";
-            // }
-            // else
-            // {
-            //     WrongCar.text = "you need to be using F1 car";
-            //     StartCoroutine(ResetText());
-            // }
-        }
-        if (!F1Race)
-        {
-            // if (SaveScript.CarID > 0)
-            // {
-                TrackOptions.SetActive(true);
-                WrongCar.text = " ";
-            // }
-            // else
-            // {
-            //     WrongCar.text = "you need to be using sports car";
-            //     StartCoroutine(ResetText());
-            // }
-        }
+        TrackOptions.SetActive(true);
+
     }
 
     public void OptionsOff()

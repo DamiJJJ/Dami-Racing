@@ -1219,8 +1219,19 @@ MonoBehaviour:
   LoadScreen: {fileID: 1014837020}
   OpponentsOn: {fileID: 1061100242}
   LapsOn: {fileID: 1179637510}
-  TimeTrialSceneNumber: 2
-  RaceTrackSceneNumber: 6
+  AvailableModes:
+  - SceneNumber: 2
+    Name: TIME TRIAL
+    TimeTrial: 1
+  - SceneNumber: 6
+    Name: RACE
+    TimeTrial: 0
+  - SceneNumber: 7
+    Name: F1 TIME TRIAL
+    TimeTrial: 1
+  - SceneNumber: 8
+    Name: F1 RACE
+    TimeTrial: 0
 --- !u!1 &492026812
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,8 +1839,13 @@ MonoBehaviour:
   LoadScreen: {fileID: 1014837020}
   OpponentsOn: {fileID: 794830408}
   LapsOn: {fileID: 1414993490}
-  TimeTrialSceneNumber: 3
-  RaceTrackSceneNumber: 5
+  AvailableModes:
+  - SceneNumber: 3
+    Name: TIME TRIAL
+    TimeTrial: 1
+  - SceneNumber: 5
+    Name: RACE
+    TimeTrial: 0
 --- !u!1 &651243273
 GameObject:
   m_ObjectHideFlags: 0

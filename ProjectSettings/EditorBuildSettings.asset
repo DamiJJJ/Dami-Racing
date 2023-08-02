@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RaceInterlagos.unity
     guid: 51e90c475a5d0da41bf75da7d5e6dbe6
+  - enabled: 1
+    path: Assets/Scenes/F1TimeTrialInterlagos.unity
+    guid: c4c067ff4035c0941a8531ec7f62b0ef
+  - enabled: 1
+    path: Assets/Scenes/F1RaceInterlagos.unity
+    guid: f49e3ce1282693145a67f8c0c27132ef
   m_configObjects: {}

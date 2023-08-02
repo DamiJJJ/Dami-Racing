@@ -1,4 +1,4 @@
-using  System.Collections;
+using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
@@ -12,38 +12,62 @@ public class OptionsMenuScript : MonoBehaviour
     public GameObject OpponentsOn;
     public GameObject LapsOn;
 
-    public int TimeTrialSceneNumber;
-    public int RaceTrackSceneNumber;
+    [System.Serializable]
+    public struct RaceModes
+    {
+        public int SceneNumber;
+        public string Name;
+        public bool TimeTrial;
+    }
+
+    public RaceModes[] AvailableModes;
 
     private bool TimeTrial = true;
+    private int Counter = 0;
     private int CurrentLapCount = 1;
     private int CurrentOpponentCount = 1;
 
     public void ModeNext()
     {
-        if(TimeTrial)
+        if (Counter < AvailableModes.Length - 1)
         {
-            Mode.text = "RACE";
-            TimeTrial = false;
-            OpponentsOn.SetActive(true);
-            LapsOn.SetActive(true);
+            Counter++;
+            Mode.text = AvailableModes[Counter].Name;
+            if (AvailableModes[Counter].TimeTrial)
+            {
+                OpponentsOn.SetActive(false);
+                LapsOn.SetActive(false);
+            }
+            else if (!AvailableModes[Counter].TimeTrial)
+            {
+                OpponentsOn.SetActive(true);
+                LapsOn.SetActive(true);
+            }
         }
     }
 
     public void ModeBack()
     {
-        if(!TimeTrial)
+        if (Counter > 0)
         {
-            Mode.text = "TIME TRIAL";
-            TimeTrial = true;
-            OpponentsOn.SetActive(false);
-            LapsOn.SetActive(false);
+            Counter--;
+            Mode.text = AvailableModes[Counter].Name;
+            if (AvailableModes[Counter].TimeTrial)
+            {
+                OpponentsOn.SetActive(false);
+                LapsOn.SetActive(false);
+            }
+            else if (!AvailableModes[Counter].TimeTrial)
+            {
+                OpponentsOn.SetActive(true);
+                LapsOn.SetActive(true);
+            }
         }
     }
 
     public void LapCountNext()
     {
-        if(CurrentLapCount < 12)
+        if (CurrentLapCount < 12)
         {
             CurrentLapCount++;
             LapCount.text = CurrentLapCount + " LAPS";
@@ -53,13 +77,13 @@ public class OptionsMenuScript : MonoBehaviour
 
     public void LapCountBack()
     {
-        if(CurrentLapCount > 2)
+        if (CurrentLapCount > 2)
         {
             CurrentLapCount--;
             LapCount.text = CurrentLapCount + " LAPS";
             UniversalSave.LapCounts = CurrentLapCount;
         }
-        else if(CurrentLapCount == 2)
+        else if (CurrentLapCount == 2)
         {
             CurrentLapCount--;
             LapCount.text = CurrentLapCount + " LAP";
@@ -69,7 +93,7 @@ public class OptionsMenuScript : MonoBehaviour
 
     public void OpponentNext()
     {
-        if(CurrentOpponentCount < 7)
+        if (CurrentOpponentCount < 7)
         {
             CurrentOpponentCount++;
             OpponentCount.text = CurrentOpponentCount + " OPPONENTS";
@@ -78,13 +102,13 @@ public class OptionsMenuScript : MonoBehaviour
     }
     public void OpponentBack()
     {
-        if(CurrentOpponentCount > 2)
+        if (CurrentOpponentCount > 2)
         {
             CurrentOpponentCount--;
             OpponentCount.text = CurrentOpponentCount + " OPPONENTS";
             UniversalSave.OpponentsCount = CurrentOpponentCount;
         }
-        else if(CurrentOpponentCount == 2)
+        else if (CurrentOpponentCount == 2)
         {
             CurrentOpponentCount--;
             OpponentCount.text = CurrentOpponentCount + " OPPONENT";
@@ -142,18 +166,18 @@ public class OptionsMenuScript : MonoBehaviour
         ResetValues();
         yield return new WaitForSeconds(0.3f);
         LoadScreen.SetActive(true);
-        if(TimeTrial)
+        if (AvailableModes[Counter].TimeTrial)
         {
             UniversalSave.LapCounts = 1;
             UniversalSave.OpponentsCount = 0;
-            SceneManager.LoadScene(TimeTrialSceneNumber);
+            SceneManager.LoadScene(AvailableModes[Counter].SceneNumber);
         }
-        if(!TimeTrial)
+        if (!AvailableModes[Counter].TimeTrial)
         {
             UniversalSave.LapCounts = CurrentLapCount;
-            SceneManager.LoadScene(RaceTrackSceneNumber);
+            SceneManager.LoadScene(AvailableModes[Counter].SceneNumber);
             UniversalSave.OpponentsCount = CurrentOpponentCount;
         }
-        
+
     }
 }
