@@ -22,7 +22,7 @@ public class OptionsMenuScript : MonoBehaviour
 
     public RaceModes[] AvailableModes;
 
-    private bool TimeTrial = true;
+    // private bool TimeTrial = true;
     private int Counter = 0;
     private int CurrentLapCount = 1;
     private int CurrentOpponentCount = 1;

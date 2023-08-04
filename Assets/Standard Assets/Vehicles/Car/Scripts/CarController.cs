@@ -222,7 +222,7 @@ namespace UnityStandardAssets.Vehicles.Car
 
             if (!F1Car)
             {
-                if (footbrake > 0 || handbrake > 0)
+                if (footbrake > 0 && !SaveScript.isReversing || handbrake > 0)
                 {
                     BrakeLightsOff.SetActive(false);
                     BrakeLightsOn.SetActive(true);
@@ -232,6 +232,18 @@ namespace UnityStandardAssets.Vehicles.Car
                         rearLightsOn.SetActive(true);
                     }
                 }
+
+                else if (footbrake <= 0 && SaveScript.isReversing || handbrake <= 0 && SaveScript.isReversing)
+                {
+                    BrakeLightsOff.SetActive(false);
+                    BrakeLightsOn.SetActive(false);
+                    if (rearLightsOff != null && rearLightsOn != null)
+                    {
+                        rearLightsOff.SetActive(true);
+                        rearLightsOn.SetActive(false);
+                    }
+                }
+                
                 else if (footbrake <= 0 || handbrake <= 0)
                 {
                     BrakeLightsOff.SetActive(true);

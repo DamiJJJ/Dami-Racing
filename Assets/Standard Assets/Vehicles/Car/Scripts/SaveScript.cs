@@ -63,6 +63,7 @@ public class SaveScript : MonoBehaviour
     public static int CarID;
     public static bool Joypad = false;
     public static bool BrakeSlide = false;
+    public static bool isReversing = false;
     public static int CamID = 0;
 
     private void Update()
